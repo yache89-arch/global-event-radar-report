@@ -1,1 +1,100 @@
+name: Daily Event Radar
 
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 23 * * *"  # 08:00 KST
+
+permissions:
+  contents: read
+
+jobs:
+  radar:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout private radar repo
+        uses: actions/checkout@v7
+
+      - name: Set up Python
+        uses: actions/setup-python@v7
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate HTML report
+        run: python radar.py generate
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENAI_MODEL: ${{ secrets.OPENAI_MODEL }}
+          REPORT_URL: https://yache89-arch.github.io/global-event-radar-report/
+
+      - name: Publish HTML to public report repo
+        env:
+          REPORT_REPO_TOKEN: ${{ secrets.REPORT_REPO_TOKEN }}
+        run: |
+          set -e
+
+          rm -rf /tmp/global-event-radar-report
+
+          git clone \
+            "https://x-access-token:${REPORT_REPO_TOKEN}@github.com/yache89-arch/global-event-radar-report.git" \
+            /tmp/global-event-radar-report
+
+          find /tmp/global-event-radar-report -mindepth 1 -maxdepth 1 \
+            ! -name ".git" \
+            ! -name "README.md" \
+            -exec rm -rf {} +
+
+          cp -R docs/. /tmp/global-event-radar-report/
+
+          cd /tmp/global-event-radar-report
+
+          git config user.name "global-event-radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+
+          git add -A
+
+          if git diff --cached --quiet; then
+            echo "No report changes to publish."
+          else
+            git commit -m "Update daily event report"
+            git push origin main
+          fi
+
+      - name: Wait for public GitHub Pages
+        run: |
+          set -e
+
+          URL="https://yache89-arch.github.io/global-event-radar-report/"
+          echo "Waiting for $URL"
+
+          for i in {1..24}; do
+            STATUS=$(curl -L -s -o /dev/null -w "%{http_code}" "$URL")
+            echo "Attempt $i: HTTP $STATUS"
+
+            if [ "$STATUS" = "200" ]; then
+              echo "Public report is live."
+              exit 0
+            fi
+
+            sleep 10
+          done
+
+          echo "Public GitHub Pages did not become available."
+          exit 1
+
+      - name: Send Kakao brief
+        run: python radar.py send
+        env:
+          YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+          KAKAO_REST_API_KEY: ${{ secrets.KAKAO_REST_API_KEY }}
+          KAKAO_REFRESH_TOKEN: ${{ secrets.KAKAO_REFRESH_TOKEN }}
+          KAKAO_CLIENT_SECRET: ${{ secrets.KAKAO_CLIENT_SECRET }}
+          REPORT_URL: https://yache89-arch.github.io/global-event-radar-report/
