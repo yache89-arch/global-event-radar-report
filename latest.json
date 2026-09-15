@@ -1,9 +1,18 @@
 {
-  "generated_at": "2026-09-16T01:48:32.422016+09:00",
+  "ready": true,
+  "generated_at": "2026-09-16T02:21:48.637965+09:00",
   "events": [
     {
-      "event": "Snapdragon Summit",
-      "what_happened": "Join us live for Day 2 of Snapdragon Summit 2026 as Qualcomm leaders and industry partners explore what's next for personal AI, immersive ex / Qualcomm: Apply to New Opportunities through the Snapdragon Insiders Access Program: Available in the U.S., Ca"
+      "event": "Apple Event",
+      "what_happened": "Apple Event September 9 2026: Introducing iPhone Duo and more"
+    },
+    {
+      "event": "IFA",
+      "what_happened": "Lenovo Innovation World Keynote at IFA 2026"
+    },
+    {
+      "event": "introducing iphone duo",
+      "what_happened": "Introducing the new iPhone Duo"
     }
   ]
 }
