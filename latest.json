@@ -1,18 +1,30 @@
 {
   "ready": true,
-  "generated_at": "2026-09-16T09:53:23.640596+09:00",
+  "generated_at": "2026-09-16T14:22:40.145572+09:00",
   "events": [
     {
       "event": "Apple Event",
-      "what_happened": "Apple Event September 9 2026: Introducing iPhone Duo and more · What to expect from Apple's 'Surprise and shine' iPhone 18 Pro event on September 9"
+      "title": "Apple Event September 9 2026: Introducing iPhone Duo and more",
+      "what_happened": "Apple Event September 9 2026: Introducing iPhone Duo and more · How to Watch the Apple September Event (2026)",
+      "summary_points": [
+        "Apple Event September 9 2026: Introducing iPhone Duo and more",
+        "How to Watch the Apple September Event (2026)",
+        "What to expect from Apple's 'Surprise and shine' iPhone 18 Pro event on September 9"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/39BalPDuTo0/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=39BalPDuTo0"
     },
     {
       "event": "IFA",
-      "what_happened": "Lenovo Innovation World Keynote at IFA 2026 · Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026"
-    },
-    {
-      "event": "introducing iphone duo",
-      "what_happened": "Introducing the new iPhone Duo · Apple unveils iPhone Duo"
+      "title": "Lenovo Innovation World Keynote at IFA 2026",
+      "what_happened": "Lenovo Innovation World Keynote at IFA 2026 · Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+      "summary_points": [
+        "Lenovo Innovation World Keynote at IFA 2026",
+        "Sparks Fly: NVIDIA Accelerates Local AI at IFA 2026",
+        "I Went Shopping for My Ultimate Smart Home of the Future at IFA 2026"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/lFS6wpA4BUI/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=lFS6wpA4BUI"
     }
   ]
 }
