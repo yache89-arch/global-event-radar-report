@@ -9,96 +9,53 @@
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
 .wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
-.masthead{display:flex;justify-content:space-between;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0;font-size:11px;font-weight:700;color:#41505d;letter-spacing:.04em}
-.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.masthead{display:flex;justify-content:space-between;gap:16px;padding-bottom:12px;border-bottom:1px solid #9ca6b0;font-size:11px;font-weight:700;color:#41505d;letter-spacing:.04em}
+.hero{padding:30px 0 24px} .hero h1{margin:0;font-size:46px;line-height:1;letter-spacing:-.045em}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:0 0 32px;border-radius:3px}
 .today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
-.today-grid{display:grid;gap:0}
+.today-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:0}
 .pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
 .pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
 .pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
 .case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
-.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
-.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
-.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
-.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:end;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.rank{font-size:12px;color:var(--blue);font-weight:800;margin-bottom:7px} .case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5}
 .summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
 .summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
 .body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
 .points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
 .insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
-.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.insight h3{font-size:20px;line-height:1.35;margin:0 0 10px} .insight p{margin:0;color:#d5e0e7;font-size:14px;line-height:1.58}
 .optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
 .reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
 .source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
 .source-btn:hover{border-color:var(--blue);color:var(--blue)}
-@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.hero h1{font-size:34px}.today-grid{grid-template-columns:1fr}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
 </style>
 </head>
 <body><div class="wrap">
   <div class="masthead"><span>Global Event Radar</span><span>2026.09.17</span></div>
-  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+  <section class="hero"><h1>Global Event Radar</h1></section>
+  <section class="today"><div class="today-title">TODAY'S TOP 1</div><div class="today-grid">
         <div class="pick">
           <div class="no">01</div>
           <h3>Dreamforce</h3>
-          <p>Marc Benioff &amp; Sam Altman | Dreamforce 2026</p>
-        </div>
-        <div class="pick">
-          <div class="no">02</div>
-          <h3>Apple Event</h3>
-          <p>How to Watch the Apple September Event (2026)</p>
-        </div>
-        <div class="pick">
-          <div class="no">03</div>
-          <h3>WWDC</h3>
-          <p>Tim Cook&#x27;s greatest moments hosting WWDC</p>
+          <p>Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes</p>
         </div></div></section>
   
         <article class="case">
           <div class="case-head">
             <div>
+              <div class="rank">01</div>
               <h2>Dreamforce</h2>
-              <p class="deck">Marc Benioff &amp; Sam Altman | Dreamforce 2026 · Nvidia&#x27;s Huang diverges with CEOs of Anthropic, OpenAI on AI sa…</p>
             </div>
             <div class="meta">OFFICIAL<br>2026-09-16</div>
           </div>
 
           <section class="summary">
             <div class="label">핵심 요약</div>
-            <ul><li>Marc Benioff &amp; Sam Altman | Dreamforce 2026</li><li>Nvidia&#x27;s Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce</li><li>‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce</li></ul>
-          </section>
-
-          <div class="body-grid single">
-            <section class="points">
-              <div class="label">눈여겨볼 점</div>
-              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li></ul>
-            </section>
-            
-          </div>
-
-          <div class="optional">
-            
-            <section class="reaction">
-              <div class="label">반응</div>
-              <p>댓글에서 will, like, slow, down 관련 언급이 반복됨</p>
-            </section>
-            <section class="sources ">
-              <div class="label">출처</div>
-              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=Bh5bJrrJ6xs" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMingFBVV95cUxNamhBSWgtcmZwTVRVOXlnbGZMN2R1bDFlMWEtV21wUXFmUGVoWW5vQWNVbU55OEE0T0lWMUFlMXFZVGdvNmN0TElFUGNkQUlwQ01hU09aUEZIZlBjd0lMbGJMOVJHbmhOSTNRaHU0cXBnNmRVQ2lTb21odDUzOGlRQ1phSTRDUDVucThHQjNncjI1Q1pMOVV0WlotdDVpUdIBowFBVV95cUxNQW5ST21vbGJyUWYzcHVFZFJOZUgzTEJ3TWFkS3Y4Nm9fQ2w3c3puMnJqaFBpbl9CVG5Gd1RSZUVGQmJqLVZaN0dBZ0dOWEZNb3IxMDBtaGhWNGllb29aZERqeGxibHhnakZJRDgxeF9oa1NDSGV2YzYwa3plQ0dhZU43aHJNb1MyUlZRRm1hb1BZRVpZRVF4LUd1OWNQXzJpZFpr?oc=5" target="_blank" rel="noopener">CNBC ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SR0x4NGdWbnVGU0hRVUU3N2hWWkJZWW9BNl84Sk4xWW8xUzNhQ0NmMlJMajViMktoU29lZlhGcjZNbGtlaUFiTHNCMmZGbGVINlpTR01kQlUzcGRTclBZSXRYMGQ?oc=5" target="_blank" rel="noopener">NVIDIA Blog ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iSG91bWk0RW4tb04yeEp2SzVmTkNnRC1aZjRId0dKeGFVRGZrb2ViTTc4OVdWMXhzN1dFYXdNdmJQNVoxQmpxQTAzWUduX2lhVEE5eWlsNXN6ZzNrU3pWamhKdWo?oc=5" target="_blank" rel="noopener">디지털데일리 ↗</a></div>
-            </section>
-          </div>
-        </article>
-        <article class="case">
-          <div class="case-head">
-            <div>
-              <h2>Apple Event</h2>
-              <p class="deck">How to Watch the Apple September Event (2026) · What to expect from Apple&#x27;s &#x27;Surprise and shine&#x27; iPhone 18 Pr…</p>
-            </div>
-            <div class="meta">TRUSTED MEDIA<br></div>
-          </div>
-
-          <section class="summary">
-            <div class="label">핵심 요약</div>
-            <ul><li>How to Watch the Apple September Event (2026)</li><li>What to expect from Apple&#x27;s &#x27;Surprise and shine&#x27; iPhone 18 Pro event on September 9</li><li>Lowest price of the season hits Apple&#x27;s M5 MacBook Air</li></ul>
+            <ul><li>Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes</li><li>Nvidia&#x27;s Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce</li><li>‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce</li></ul>
           </section>
 
           <div class="body-grid single">
@@ -113,37 +70,7 @@ body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,Bl
             
             <section class="sources wide">
               <div class="label">출처</div>
-              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5" target="_blank" rel="noopener">WIRED ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiwAFBVV95cUxPaUVSR2tkU2EtUGtwQ2pXc09JODhVMllCMDlrNGh3ZzVvWFNVTDVfNDNVSTNjQjhOQzd4eXFiT241QkhOYXZFR1NTMjZXLTBrS0RDcFotTHM1VmhnX2RMeHhDQktYRkFWQzhRcTRQWmROdmpvY2Z5VEhUNTJKeEdxR2V3b21nNVJuN1gzaVF4NGNZMkdzcVJEYUFraS0zd3VROTBtUDUzX1hDQVdpSzV3VnRJRDJyeW5LQmlURm5Jb1o?oc=5" target="_blank" rel="noopener">AppleInsider ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMipAFBVV95cUxNVkFSbnprc18wbFZwZzh1WW9Tbjhia1gtVmhqcU8ydHVFbjI4cjh0RHB0LVJJbzE4RGdDNU8tb2UyWVQ1WDUxanFaY1NUSTFybEEwb3RGLWhTTlVybXVYMThERVFyckNqMkk0eW5xWW15S2hOdTFKelN4aDZYWk91UnBTcHZXWUxYOVdTRmNPc2Q1bng0QWczUWphV2dOcmt1eXV2QQ?oc=5" target="_blank" rel="noopener">AppleInsider ↗</a></div>
-            </section>
-          </div>
-        </article>
-        <article class="case">
-          <div class="case-head">
-            <div>
-              <h2>WWDC</h2>
-              <p class="deck">Tim Cook&#x27;s greatest moments hosting WWDC · iPhone 18 live blog: On the ground at Apple’s biggest event</p>
-            </div>
-            <div class="meta">TRUSTED MEDIA<br></div>
-          </div>
-
-          <section class="summary">
-            <div class="label">핵심 요약</div>
-            <ul><li>Tim Cook&#x27;s greatest moments hosting WWDC</li><li>iPhone 18 live blog: On the ground at Apple’s biggest event</li><li>Apple keynote 2026: What all Apple will present on September 9th?</li></ul>
-          </section>
-
-          <div class="body-grid single">
-            <section class="points">
-              <div class="label">눈여겨볼 점</div>
-              <ul><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li><li><strong>제품 연결:</strong> 기술 메시지가 실제 제품 경험과 어떻게 연결되는지</li></ul>
-            </section>
-            
-          </div>
-
-          <div class="optional">
-            
-            <section class="sources wide">
-              <div class="label">출처</div>
-              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5" target="_blank" rel="noopener">AppleInsider ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMilwFBVV95cUxNRjFJMy1YVXA4dzNUUm9fX0t1YjgtamwzbW00NWEwakRXSWh1V1V6YWxySW1mOWRNSU5FemsyNFNzdzk1UWtVUVVsNmhCdnJseE5PZ0pIdndnbzI5cnBpM2NSNjBTcmhMZm1sVW5DWEpIQjhXdm5yNGxyZ1VvYnhiVGgwbGEtSE5wRE1NX2ZXdno5Z2cycUxj?oc=5" target="_blank" rel="noopener">The Verge ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMijgFBVV95cUxQVS1ROHFMTlltcmp6Nm9Xc210N2tzdG85TVR0Wk1TRTdCMzRpUVRtM084d2s5akZsSktfUTVqZGlEWmpsYzhLWjdVSVEtb2Jwa2lzUkgydUVGeHNzclM2OV91RlQ0RzRQZWlqVkhXUkRRNnNjQmFMRk1DUG5HNTQ1UzVmd2dfc2dUTlUzNW13?oc=5" target="_blank" rel="noopener">Letem světem Applem ↗</a></div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=y6ol1YE4NMA" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMingFBVV95cUxNamhBSWgtcmZwTVRVOXlnbGZMN2R1bDFlMWEtV21wUXFmUGVoWW5vQWNVbU55OEE0T0lWMUFlMXFZVGdvNmN0TElFUGNkQUlwQ01hU09aUEZIZlBjd0lMbGJMOVJHbmhOSTNRaHU0cXBnNmRVQ2lTb21odDUzOGlRQ1phSTRDUDVucThHQjNncjI1Q1pMOVV0WlotdDVpUdIBowFBVV95cUxNQW5ST21vbGJyUWYzcHVFZFJOZUgzTEJ3TWFkS3Y4Nm9fQ2w3c3puMnJqaFBpbl9CVG5Gd1RSZUVGQmJqLVZaN0dBZ0dOWEZNb3IxMDBtaGhWNGllb29aZERqeGxibHhnakZJRDgxeF9oa1NDSGV2YzYwa3plQ0dhZU43aHJNb1MyUlZRRm1hb1BZRVpZRVF4LUd1OWNQXzJpZFpr?oc=5" target="_blank" rel="noopener">CNBC ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE1SR0x4NGdWbnVGU0hRVUU3N2hWWkJZWW9BNl84Sk4xWW8xUzNhQ0NmMlJMajViMktoU29lZlhGcjZNbGtlaUFiTHNCMmZGbGVINlpTR01kQlUzcGRTclBZSXRYMGQ?oc=5" target="_blank" rel="noopener">NVIDIA Blog ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiZEFVX3lxTE9iSG91bWk0RW4tb04yeEp2SzVmTkNnRC1aZjRId0dKeGFVRGZrb2ViTTc4OVdWMXhzN1dFYXdNdmJQNVoxQmpxQTAzWUduX2lhVEE5eWlsNXN6ZzNrU3pWamhKdWo?oc=5" target="_blank" rel="noopener">디지털데일리 ↗</a></div>
             </section>
           </div>
         </article>

@@ -1,45 +1,18 @@
 {
   "ready": true,
-  "generated_at": "2026-09-17T02:11:51.315524+09:00",
+  "generated_at": "2026-09-17T09:57:40.960992+09:00",
   "events": [
     {
       "event": "Dreamforce",
-      "title": "Marc Benioff & Sam Altman | Dreamforce 2026",
-      "what_happened": "Marc Benioff & Sam Altman | Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+      "title": "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes",
+      "what_happened": "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
       "summary_points": [
-        "Marc Benioff & Sam Altman | Dreamforce 2026",
+        "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes",
         "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
         "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/Bh5bJrrJ6xs/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=Bh5bJrrJ6xs",
-      "selection_level": 1
-    },
-    {
-      "event": "Apple Event",
-      "title": "How to Watch the Apple September Event (2026)",
-      "what_happened": "How to Watch the Apple September Event (2026) · What to expect from Apple's 'Surprise and shine' iPhone 18 Pro event on September 9",
-      "summary_points": [
-        "How to Watch the Apple September Event (2026)",
-        "What to expect from Apple's 'Surprise and shine' iPhone 18 Pro event on September 9",
-        "Lowest price of the season hits Apple's M5 MacBook Air"
-      ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5",
-      "selection_level": 2
-    },
-    {
-      "event": "WWDC",
-      "title": "Tim Cook's greatest moments hosting WWDC",
-      "what_happened": "Tim Cook's greatest moments hosting WWDC · iPhone 18 live blog: On the ground at Apple’s biggest event",
-      "summary_points": [
-        "Tim Cook's greatest moments hosting WWDC",
-        "iPhone 18 live blog: On the ground at Apple’s biggest event",
-        "Apple keynote 2026: What all Apple will present on September 9th?"
-      ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5",
-      "selection_level": 2
+      "thumbnail": "https://i.ytimg.com/vi/y6ol1YE4NMA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=y6ol1YE4NMA"
     }
   ]
 }
