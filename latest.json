@@ -1,18 +1,28 @@
 {
   "ready": true,
-  "generated_at": "2026-09-17T09:57:40.960992+09:00",
+  "generated_at": "2026-09-18T09:53:39.902221+09:00",
   "events": [
     {
       "event": "Dreamforce",
-      "title": "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes",
-      "what_happened": "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+      "title": "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026",
+      "what_happened": "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
       "summary_points": [
-        "Hey AI, Meet the #1 CRM | Dreamforce 2026 Main Keynote in 3 Minutes",
+        "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026",
         "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
         "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/y6ol1YE4NMA/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=y6ol1YE4NMA"
+      "thumbnail": "https://i.ytimg.com/vi/S95ZQLqr988/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=S95ZQLqr988"
+    },
+    {
+      "event": "Kia Worldwide — World Premiere",
+      "title": "The Kia PV7 | World Premiere",
+      "what_happened": "The Kia PV7 | World Premiere",
+      "summary_points": [
+        "The Kia PV7 | World Premiere"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY"
     }
   ]
 }
