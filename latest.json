@@ -1,18 +1,18 @@
 {
   "ready": true,
-  "generated_at": "2026-09-18T09:53:39.902221+09:00",
+  "generated_at": "2026-09-19T09:46:15.695148+09:00",
   "events": [
     {
       "event": "Dreamforce",
-      "title": "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026",
-      "what_happened": "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+      "title": "Live Q&A with Product Leaders | True to the Core, Dreamforce 2026",
+      "what_happened": "Q&A with Product Leaders | True to the Core, Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
       "summary_points": [
-        "From AI to ROI with Agent Fabric | MuleSoft Keynote, Dreamforce 2026",
+        "Q&A with Product Leaders | True to the Core, Dreamforce 2026",
         "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
         "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/S95ZQLqr988/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=S95ZQLqr988"
+      "thumbnail": "https://i.ytimg.com/vi/HDm6tVFJtYM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=HDm6tVFJtYM"
     },
     {
       "event": "Kia Worldwide — World Premiere",
@@ -23,6 +23,16 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
       "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY"
+    },
+    {
+      "event": "ver ndert alles aber wohin",
+      "title": "KI verändert alles – aber wohin?",
+      "what_happened": "KI verändert alles – aber wohin?",
+      "summary_points": [
+        "KI verändert alles – aber wohin?"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3zM8OhOfA00/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3zM8OhOfA00"
     }
   ]
 }
