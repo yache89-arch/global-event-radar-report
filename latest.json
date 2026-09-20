@@ -1,18 +1,18 @@
 {
   "ready": true,
-  "generated_at": "2026-09-19T09:46:15.695148+09:00",
+  "generated_at": "2026-09-20T09:29:46.439091+09:00",
   "events": [
     {
       "event": "Dreamforce",
-      "title": "Live Q&A with Product Leaders | True to the Core, Dreamforce 2026",
-      "what_happened": "Q&A with Product Leaders | True to the Core, Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+      "title": "Data You Can Trust Across Your Business | Informatica Keynote, Dreamforce 2026",
+      "what_happened": "Data You Can Trust Across Your Business | Informatica Keynote, Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
       "summary_points": [
-        "Q&A with Product Leaders | True to the Core, Dreamforce 2026",
+        "Data You Can Trust Across Your Business | Informatica Keynote, Dreamforce 2026",
         "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
         "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/HDm6tVFJtYM/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=HDm6tVFJtYM"
+      "thumbnail": "https://i.ytimg.com/vi/smvCZQYyKPU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=smvCZQYyKPU"
     },
     {
       "event": "Kia Worldwide — World Premiere",
@@ -23,16 +23,6 @@
       ],
       "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
       "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY"
-    },
-    {
-      "event": "ver ndert alles aber wohin",
-      "title": "KI verändert alles – aber wohin?",
-      "what_happened": "KI verändert alles – aber wohin?",
-      "summary_points": [
-        "KI verändert alles – aber wohin?"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/3zM8OhOfA00/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=3zM8OhOfA00"
     }
   ]
 }
