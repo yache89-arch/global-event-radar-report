@@ -1,42 +1,42 @@
 {
   "ready": true,
-  "generated_at": "2026-09-21T11:41:55.227556+09:00",
+  "generated_at": "2026-09-21T14:20:14.229696+09:00",
   "events": [
     {
-      "event": "Kia Worldwide — World Premiere",
-      "title": "The Kia PV7 | World Premiere",
-      "what_happened": "The Kia PV7 | World Premiere",
+      "event": "Disney Plus UK — Runway",
+      "title": "Law Roach's Most Iconic Reads In Project Runway Season 21 | Disney+ UK",
+      "what_happened": "Project Runway 시즌 21의 Law Roach 주요 발언을 다룬 영상 공개 · Disney+ UK 채널에서 프로그램 스트리밍 경로 안내",
       "summary_points": [
-        "The Kia PV7 | World Premiere"
+        "Project Runway 시즌 21의 Law Roach 주요 발언을 다룬 영상 공개",
+        "Disney+ UK 채널에서 프로그램 스트리밍 경로 안내"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY",
+      "thumbnail": "https://i.ytimg.com/vi/RVecQp2OUvw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=RVecQp2OUvw",
       "selection_level": 1
     },
     {
-      "event": "Apple Event",
-      "title": "How to Watch the Apple September Event (2026)",
-      "what_happened": "How to Watch the Apple September Event (2026) · Apple iPhone Duo launch event: The 5 biggest announcements",
+      "event": "Google I/O",
+      "title": "Why client SDK generation belongs in the open",
+      "what_happened": "Google이 클라이언트 SDK 생성 방식을 공개적으로 다루는 글 게시 · Gmail·Docs·Keep에 AI 음성 기능을 출시했다는 보도",
       "summary_points": [
-        "How to Watch the Apple September Event (2026)",
-        "Apple iPhone Duo launch event: The 5 biggest announcements",
-        "Five takeaways from Apple’s biggest product showcase of the year"
+        "Google이 클라이언트 SDK 생성 방식을 공개적으로 다루는 글 게시",
+        "Gmail·Docs·Keep에 AI 음성 기능을 출시했다는 보도",
+        "Google Flow의 영상 편집 제어 기능 강화 소식 소개"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJObmhBUE5KSERmbG8ybzFtVXdzdVJvUFdlNzF3YUhHc2FnSDhBODVibGp0TmdZb1lJQU9LNkVTZFAzZXJNSjB6WklQZzFjZHh4cGlMTHdjMldzTTJNQmxmMnlEUldKUnpINUg2UkFGeFZsWWZVczkwWTRKMUlmU1RkbVZ2Wm8?oc=5",
       "selection_level": 2
     },
     {
-      "event": "WWDC",
-      "title": "Tim Cook's greatest moments hosting WWDC",
-      "what_happened": "Tim Cook's greatest moments hosting WWDC · MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
+      "event": "Microsoft Build",
+      "title": "Inside Track - Securing AI agents in the enterprise: Learnings from our journey at Microsoft",
+      "what_happened": "Microsoft가 엔터프라이즈 AI 에이전트 보안을 주제로 Inside Track 공개 · Microsoft의 실제 여정에서 얻은 학습을 중심으로 내용 구성",
       "summary_points": [
-        "Tim Cook's greatest moments hosting WWDC",
-        "MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
-        "iOS 28: What to expect, release date and latest rumors"
+        "Microsoft가 엔터프라이즈 AI 에이전트 보안을 주제로 Inside Track 공개",
+        "Microsoft의 실제 여정에서 얻은 학습을 중심으로 내용 구성"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMkgxTFlfSE9vT1M2RW5LNWtTTXNGVGtCT0RrTGdpbU9YTDM2Y0I2djNWSmRVeThLcUtaU2J6d281TU1yVFlONHpUMzBvbTNMb1hJM1Q4TThMWnZwcHJ6SFBNd1o2X1VGR3dVUXVGTUo1X0RacVd2SGxydVdqOWRiTjJlTEgyMmJERVBZZVRwMkhMcmhwdHo4ejN5V0twRXREWjdVN0lCaDVkelpaaEY3RTZvajRVb1hKcGgwTA?oc=5",
       "selection_level": 2
     }
   ]

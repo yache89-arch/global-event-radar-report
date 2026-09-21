@@ -3,18 +3,18 @@
     "date": "2026-09-21",
     "events": [
       {
-        "event": "Kia Worldwide — World Premiere",
-        "brand": "kia",
-        "published": "2026-09-17T07:22:56Z"
+        "event": "Disney Plus UK — Runway",
+        "brand": "disney",
+        "published": "2026-09-20T15:45:23Z"
       },
       {
-        "event": "Apple Event",
-        "brand": "apple",
+        "event": "Google I/O",
+        "brand": "google",
         "published": ""
       },
       {
-        "event": "WWDC",
-        "brand": "apple",
+        "event": "Microsoft Build",
+        "brand": "microsoft",
         "published": ""
       }
     ]
