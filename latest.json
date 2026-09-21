@@ -1,6 +1,6 @@
 {
   "ready": true,
-  "generated_at": "2026-09-21T09:38:49.407501+09:00",
+  "generated_at": "2026-09-21T11:41:55.227556+09:00",
   "events": [
     {
       "event": "Kia Worldwide — World Premiere",
@@ -10,7 +10,34 @@
         "The Kia PV7 | World Premiere"
       ],
       "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY"
+      "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY",
+      "selection_level": 1
+    },
+    {
+      "event": "Apple Event",
+      "title": "How to Watch the Apple September Event (2026)",
+      "what_happened": "How to Watch the Apple September Event (2026) · Apple iPhone Duo launch event: The 5 biggest announcements",
+      "summary_points": [
+        "How to Watch the Apple September Event (2026)",
+        "Apple iPhone Duo launch event: The 5 biggest announcements",
+        "Five takeaways from Apple’s biggest product showcase of the year"
+      ],
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5",
+      "selection_level": 2
+    },
+    {
+      "event": "WWDC",
+      "title": "Tim Cook's greatest moments hosting WWDC",
+      "what_happened": "Tim Cook's greatest moments hosting WWDC · MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
+      "summary_points": [
+        "Tim Cook's greatest moments hosting WWDC",
+        "MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
+        "iOS 28: What to expect, release date and latest rumors"
+      ],
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5",
+      "selection_level": 2
     }
   ]
 }
