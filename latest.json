@@ -1,42 +1,42 @@
 {
   "ready": true,
-  "generated_at": "2026-09-21T15:33:14.859184+09:00",
+  "generated_at": "2026-09-21T16:00:11.571865+09:00",
   "events": [
     {
-      "event": "Apple Event",
-      "title": "How to Watch the Apple September Event (2026)",
-      "what_happened": "How to Watch the Apple September Event (2026) · Apple iPhone Duo launch event: The 5 biggest announcements",
+      "event": "Dreamforce",
+      "title": "Moving Fast Without Breaking Trust | Dreamforce 2026",
+      "what_happened": "Moving Fast Without Breaking Trust | Dreamforce 2026 · Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
       "summary_points": [
-        "How to Watch the Apple September Event (2026)",
-        "Apple iPhone Duo launch event: The 5 biggest announcements",
-        "Five takeaways from Apple’s biggest product showcase of the year"
+        "Moving Fast Without Breaking Trust | Dreamforce 2026",
+        "Nvidia's Huang diverges with CEOs of Anthropic, OpenAI on AI safety at Dreamforce",
+        "‘Now We Can Know Everything and Do Anything,’ Jensen Huang Says at Dreamforce"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/R2ONUccMDy4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=R2ONUccMDy4",
+      "selection_level": 1
+    },
+    {
+      "event": "Google I/O",
+      "title": "Why client SDK generation belongs in the open",
+      "what_happened": "Why client SDK generation belongs in the open · Google launches AI voice features in Gmail, Docs, and Keep",
+      "summary_points": [
+        "Why client SDK generation belongs in the open",
+        "Google launches AI voice features in Gmail, Docs, and Keep",
+        "Google Flow brings new creative control features to enhance video editing."
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPRXpOS3hGY0VuVHVjSEdrYkdzTXVHWDNJZVI0U0ctZGEydTcybDdsZ0tUT1F3UzJuQkpDTzdqc0hzalJjZ3JybEEyOXNETjBBdGkweXNsa3BqZVBQNHZKSDZqNnZIQ3djWHNUdjZiVDAwa19CNkctVFJoNHhvY3ZVLQ?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxQSVJObmhBUE5KSERmbG8ybzFtVXdzdVJvUFdlNzF3YUhHc2FnSDhBODVibGp0TmdZb1lJQU9LNkVTZFAzZXJNSjB6WklQZzFjZHh4cGlMTHdjMldzTTJNQmxmMnlEUldKUnpINUg2UkFGeFZsWWZVczkwWTRKMUlmU1RkbVZ2Wm8?oc=5",
       "selection_level": 2
     },
     {
-      "event": "WWDC",
-      "title": "Tim Cook's greatest moments hosting WWDC",
-      "what_happened": "Tim Cook's greatest moments hosting WWDC · MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
+      "event": "Disney Plus UK — Runway",
+      "title": "Law Roach's Most Iconic Reads In Project Runway Season 21 | Disney+ UK",
+      "what_happened": "Law Roach's Most Iconic Reads In Project Runway Season 21 | Disney+ UK",
       "summary_points": [
-        "Tim Cook's greatest moments hosting WWDC",
-        "MacOS Golden Gate Addresses a Flaw That Bothered Me Every Single Day",
-        "iOS 28: What to expect, release date and latest rumors"
+        "Law Roach's Most Iconic Reads In Project Runway Season 21 | Disney+ UK"
       ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNTFVEWmkyZWlUaUczQVBHd05VZWczcGxTX3VpTEdsRkVSUTVqNG1SZElWWG5oWndwUmRKTTgwR09hcFVnNFFtQktadk9qZFR5cTNxUVd0SXhQX2lLcm1EWGxpRXFLdEFSLXVzblFUVXdyRFJ3aEVkaDdUZFJxakVGOUFkVzRoOFNyRVE?oc=5",
-      "selection_level": 2
-    },
-    {
-      "event": "Kia Worldwide — World Premiere",
-      "title": "The Kia PV7 | World Premiere",
-      "what_happened": "The Kia PV7 | World Premiere",
-      "summary_points": [
-        "The Kia PV7 | World Premiere"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/4PnEKYbyGEY/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=4PnEKYbyGEY",
+      "thumbnail": "https://i.ytimg.com/vi/RVecQp2OUvw/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=RVecQp2OUvw",
       "selection_level": 1
     }
   ]
