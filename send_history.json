@@ -23,19 +23,19 @@
     "date": "2026-09-22",
     "events": [
       {
-        "event": "Microsoft Build",
-        "brand": "microsoft",
+        "event": "Apple Event",
+        "brand": "apple",
         "published": ""
       },
       {
-        "event": "Microsoft Ignite",
-        "brand": "microsoft",
+        "event": "WWDC",
+        "brand": "apple",
         "published": ""
       },
       {
-        "event": "NVIDIA GTC",
-        "brand": "nvidia",
-        "published": ""
+        "event": "Kia Worldwide — World Premiere",
+        "brand": "kia",
+        "published": "2026-09-17T07:22:56Z"
       }
     ]
   }
