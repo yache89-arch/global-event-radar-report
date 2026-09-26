@@ -1,44 +1,44 @@
 {
   "ready": true,
-  "generated_at": "2026-09-23T10:03:18.202153+09:00",
+  "generated_at": "2026-09-26T10:03:49.458643+09:00",
   "events": [
     {
-      "event": "Snapdragon Summit",
-      "title": "Snapdragon Summit 2026 Day 1: CEO Vision and Mobile Keynotes | Snapdragon for the Agentic Age",
-      "what_happened": "Day 1 CEO 비전·모바일 키노트 생중계 · 글로벌 기술 리더들과 Snapdragon의 다음 방향 공유",
+      "event": "NVIDIA GTC",
+      "title": "CNBC Daily Open: Does Nvidia need a hug?",
+      "what_happened": "CNBC Daily Open: Does Nvidia need a hug? · Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force",
       "summary_points": [
-        "Day 1 CEO 비전·모바일 키노트 생중계",
-        "글로벌 기술 리더들과 Snapdragon의 다음 방향 공유",
-        "Qualcomm CMO Don McGuire의 ‘Power of Partners’ 세션 예고"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/QADjyP3djAg/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=QADjyP3djAg",
-      "selection_level": 1
-    },
-    {
-      "event": "Microsoft Build",
-      "title": "Inside Track - Securing AI agents in the enterprise: Learnings from our journey at Microsoft",
-      "what_happened": "AI를 중심으로 Windows·데이터센터·칩 소식 정리 · 간소화된 Windows 경험과 RTX Spark 기반 제품 발표",
-      "summary_points": [
-        "AI를 중심으로 Windows·데이터센터·칩 소식 정리",
-        "간소화된 Windows 경험과 RTX Spark 기반 제품 발표",
-        "개인화된 OpenClaw 에이전트 발표와 데모"
+        "CNBC Daily Open: Does Nvidia need a hug?",
+        "Nvidia Starts PAC as AI Chip Maker Builds DC Influence Force",
+        "AI cloud provider Nscale files to go public"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxNMkgxTFlfSE9vT1M2RW5LNWtTTXNGVGtCT0RrTGdpbU9YTDM2Y0I2djNWSmRVeThLcUtaU2J6d281TU1yVFlONHpUMzBvbTNMb1hJM1Q4TThMWnZwcHJ6SFBNd1o2X1VGR3dVUXVGTUo1X0RacVd2SGxydVdqOWRiTjJlTEgyMmJERVBZZVRwMkhMcmhwdHo4ejN5V0twRXREWjdVN0lCaDVkelpaaEY3RTZvajRVb1hKcGgwTA?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9lU3F3dEVoRDNHaFNrT29JLWxjN0Z5bFJtaTIzT1kzVHBhT2t2SUJWU0VMaWFDaWFXUUVzbzJLZkw4ZVV1R0t1bzlxOHlmSm5QSXJueDUyZXF1NEQ1Z09TRjJzOEQtRklVQU83MHBpWm3SAXZBVV95cUxOakQzSXRaZkhlcFRPZGxPdmZjYzJWM2hnbDJFUkpPMW9YcU9fQ1AtMmozWFNHWFZyMlhnVjlWeUlxMnhpVDBsYmxkRVRGZUtwN2FQbGlROWhCb0Q2Q1ZRVzVhQ1lNVFhqektOR00xdjBPeTZObjBR?oc=5",
       "selection_level": 2
     },
     {
-      "event": "Microsoft Ignite",
-      "title": "Microsoft recognized as a Leader in the 2026 Gartner® Magic Quadrant™ for Distributed Hybrid Infrastructure",
-      "what_happened": "Ignite 2025 키노트에서 Microsoft 365 발표 공개 · 발표 대부분이 AI 중심으로 구성됨",
+      "event": "Meta Connect",
+      "title": "Meta Connect 2026: The biggest news and announcements",
+      "what_happened": "Meta Connect 2026: The biggest news and announcements · Everything Announced At Meta Connect 2026",
       "summary_points": [
-        "Ignite 2025 키노트에서 Microsoft 365 발표 공개",
-        "발표 대부분이 AI 중심으로 구성됨",
-        "AI 기반 신규 오퍼링 발표와 데모 진행"
+        "Meta Connect 2026: The biggest news and announcements",
+        "Everything Announced At Meta Connect 2026",
+        "Meta's standoff with Amazon over Muse could be a sign of things to come"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMi3gFBVV95cUxNTjNtcVdBU1FWczZUaUVncjRYdXdvaWJ1S1VReUlXbWFmYm0ySHp3TTBpZXVzdmdhMTVIRkM4THFYcTExbUZyaWdtaWt1YnB0VDIybkJORWZTTC0ySTZLX203cVZvSWM4alc0enBRTGpjVC1qaks0UEU0eFBjU1gwRUlqZHg1QlNJbjRfdE5HbWZKQkZuOU50SW1GOHpBZHMwU0pzSkNnbXptYkFPVVowaWt4U25wbnU3OHFCUmIza3d4Y3lBMFB0X3ZETUNlT24td0c5MW9tY29sRTVJU0E?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlFUTmpyYnlVbjQzbno4WkFaWTRsSTVLVzJLck5mZ0tRZDVZUWI2M1Y4QXhJVzFlZGZ2MXkzdE1wdWdMelNUdC1KbjV4MS1XbDFUMEw0OG1RLTdaOGNwRUR4MkdkazZfbzh4d3ZMLVhPQl9nT2ZVTi1iVDBVeGFIeGJfdlp0YjY3?oc=5",
+      "selection_level": 2
+    },
+    {
+      "event": "CES",
+      "title": "[CES 2026] An Entertainment Companion for Every Moment Seen and Heard",
+      "what_happened": "[CES 2026] An Entertainment Companion for Every Moment Seen and Heard · [CES 2026] A Care Companion for Family Health and Safety",
+      "summary_points": [
+        "[CES 2026] An Entertainment Companion for Every Moment Seen and Heard",
+        "[CES 2026] A Care Companion for Family Health and Safety",
+        "사전 매칭부터 해외 진출까지…CES 참여기업 전주기 지원"
+      ],
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQLWQ3eUpGZm9aR0NDSG9HQTFkV2E0dWFId2FyRV96dkxmZnhOZ01NN0M1Z2toek5held2dDlyOUxOSGljUFlpUVNTeXVmSzk0ZEpuUUd3VnFPLU9UNm05QXk2d3NfaW1KdXVPaVNoNHhBS0NZQ3duSU5qMjlmdkZXRFpPUTltSUx0QTYtb29SSEc4S3Fvdko1c3cxbw?oc=5",
       "selection_level": 2
     }
   ]

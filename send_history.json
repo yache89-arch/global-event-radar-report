@@ -58,5 +58,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-26",
+    "events": [
+      {
+        "event": "NVIDIA GTC",
+        "brand": "nvidia",
+        "published": ""
+      },
+      {
+        "event": "Meta Connect",
+        "brand": "meta",
+        "published": ""
+      },
+      {
+        "event": "CES",
+        "brand": "samsung",
+        "published": ""
+      }
+    ]
   }
 ]
