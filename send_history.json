@@ -78,5 +78,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-27",
+    "events": [
+      {
+        "event": "AWS re:Invent",
+        "brand": "aws",
+        "published": ""
+      },
+      {
+        "event": "MWC",
+        "brand": "mwc",
+        "published": ""
+      },
+      {
+        "event": "IFA",
+        "brand": "nvidia",
+        "published": ""
+      }
+    ]
   }
 ]
