@@ -98,5 +98,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-09-28",
+    "events": [
+      {
+        "event": "COMPUTEX",
+        "brand": "computex",
+        "published": ""
+      },
+      {
+        "event": "VivaTech",
+        "brand": "microsoft",
+        "published": ""
+      },
+      {
+        "event": "Web Summit",
+        "brand": "reuters",
+        "published": ""
+      }
+    ]
   }
 ]
