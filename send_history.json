@@ -118,5 +118,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-02",
+    "events": [
+      {
+        "event": "Gamescom",
+        "brand": "samsung",
+        "published": ""
+      },
+      {
+        "event": "OpenAI Event",
+        "brand": "the verge",
+        "published": ""
+      },
+      {
+        "event": "GitHub Universe",
+        "brand": "microsoft",
+        "published": ""
+      }
+    ]
   }
 ]
