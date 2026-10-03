@@ -138,5 +138,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-03",
+    "events": [
+      {
+        "event": "Hyundai Motor Group — World Premiere",
+        "brand": "hyundai",
+        "published": "2026-10-01T08:35:52Z"
+      },
+      {
+        "event": "Nintendo Direct",
+        "brand": "engadget",
+        "published": ""
+      },
+      {
+        "event": "PlayStation State of Play",
+        "brand": "engadget",
+        "published": ""
+      }
+    ]
   }
 ]

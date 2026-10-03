@@ -1,43 +1,44 @@
 {
   "ready": true,
-  "generated_at": "2026-10-02T10:53:21.924710+09:00",
+  "generated_at": "2026-10-03T10:33:25.693096+09:00",
   "events": [
     {
-      "event": "Gamescom",
-      "title": "Gamescom 2026: Samsung Odyssey Breaks Boundaries — Supporting Every Way You Play",
-      "what_happened": "공식 메시지는 ‘Samsung Odyssey Breaks Boundaries’ · Odyssey가 ‘모든 플레이 방식’을 지원한다는 메시지",
+      "event": "Hyundai Motor Group — World Premiere",
+      "title": "The all-new TUCSON - The Boldest | World Premiere Teaser",
+      "what_happened": "신형 TUCSON의 ‘World Premiere’ 티저 공개 · ‘Bold standard’를 내세운 올 뉴 TUCSON",
       "summary_points": [
-        "공식 메시지는 ‘Samsung Odyssey Breaks Boundaries’",
-        "Odyssey가 ‘모든 플레이 방식’을 지원한다는 메시지"
+        "신형 TUCSON의 ‘World Premiere’ 티저 공개",
+        "‘Bold standard’를 내세운 올 뉴 TUCSON",
+        "잠들지 않는 도시를 배경으로 신차 메시지 제시"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/VnZPmRi4rvU/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=VnZPmRi4rvU",
+      "selection_level": 3
+    },
+    {
+      "event": "Nintendo Direct",
+      "title": "Everything Announced During Nintendo Direct",
+      "what_happened": "Nintendo Direct에서 발표된 내용을 종합한 콘텐츠 · Nintendo 공식 사이트에서 Direct 아카이브 제공",
+      "summary_points": [
+        "Nintendo Direct에서 발표된 내용을 종합한 콘텐츠",
+        "Nintendo 공식 사이트에서 Direct 아카이브 제공",
+        "최신 Direct는 전 세계 게임 팬 대상 방송으로 소개"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPSndpdlM3Smx6VGlBMlJjWFhVbVhXZ1RrLTh2TmdybEo4YmZ6OFRqemVNalRvTEtISVh4aC1wb2dyUy1aMDNqVFVpMWJKZ1J3UG9Pa1c1aDhxMWFfeHFiMnBpZW9LRWgwcUs5QXd2eDRIWXlsMUJhY1NZNzZoUmd2T2lmOUtqVmd1anBXVEhyWXZOaVBEZnY2bHQtbWN4RkJUZWlReVVET0haVXMtaVE?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxOTWNBXzZXaXBMNUd5S2tNZVhrdTA3Sk5FS01rVi1XTUNnbEtLRU1fT1Y2NXZBM0NLelFRN1dpOHBPMWhwOFlJSUlxZUJFXzhGQ3AxcXE4bno0Nlp3SXlsbFYwMExIMjg5ZHRLLWpuS2p1SkpuUElYelZZMHlXTEpvRFVqVQ?oc=5",
       "selection_level": 2
     },
     {
-      "event": "OpenAI Event",
-      "title": "OpenAI’s AI agents need to catch up",
-      "what_happened": "OpenAI DevDay 2026은 9월 29일 개최 예정 · 키노트 연사는 CEO 샘 올트먼",
+      "event": "PlayStation State of Play",
+      "title": "Everything Announced During The PlayStation State Of Play Double Header",
+      "what_happened": "최신 State of Play의 뉴스와 발표를 소개 · PlayStation 4·5 및 PS VR·VR2용 게임 쇼케이스",
       "summary_points": [
-        "OpenAI DevDay 2026은 9월 29일 개최 예정",
-        "키노트 연사는 CEO 샘 올트먼",
-        "보도 제목은 AI 에이전트의 보완 필요성을 지적"
+        "최신 State of Play의 뉴스와 발표를 소개",
+        "PlayStation 4·5 및 PS VR·VR2용 게임 쇼케이스",
+        "Sony Interactive Entertainment가 소비자에게 직접 전달하는 방송"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNWmh6ZlBaYmZSdk4wTkIzRHduaGowNUx2M2JETmZseXNYU29NSERjNnFZX3A0dnRQa3o2UDBya244Uk9rV0dxbk0telNaOWpGbUxYVmlPdUc5R1R2aVZvVmU2NzdOV0tPUlpXazR2MTVvRDJRc0l3VzQ4TlpLVUxrWXFfX2ZoRzJ3RThOQ1U0YWxmUkk1a0tV?oc=5",
-      "selection_level": 2
-    },
-    {
-      "event": "GitHub Universe",
-      "title": "Inside Wazari.ai’s GitHub-based agent memory",
-      "what_happened": "Wazari.ai의 GitHub 기반 에이전트 메모리를 다룸 · GitHub Universe 2026은 글로벌 개발자 행사로 소개됨",
-      "summary_points": [
-        "Wazari.ai의 GitHub 기반 에이전트 메모리를 다룸",
-        "GitHub Universe 2026은 글로벌 개발자 행사로 소개됨",
-        "공식 사이트는 소프트웨어의 ‘세계 박람회’를 표방"
-      ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPRFlReWdta09CYWlNd1lFOFNLVGdXZnkzMjdodXBkT2Jsa011dW9CVF9BclJGSFhaRnlpZUw0cEVrb0N5OHJ2UnpVWE5WYS1IVFctN2Z0WllSWmh5c2g2NmRFWlUzQ1hxc3F1WmVSZzBTVnIyYloyRUR5V1FoY0Q3VVB6bHpJUW1fZG51N2t3SDhkVUxtR0Nhdk13N21lZ192emM5WGhSNEUzVjNXaW93OU82UE1GTm95?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOelRudnZLOEVrdmdQUHVneEMtZDJOV2hwbUxNTExkZm1nZjR1bHlZcVg2dEdaUnc3VnpvSWVBeTlCaEVqTVhkWWNhX2FzdzdWQzZGRHB3dXRuUGdWdlJ4bG1FY183Zmo4ZjYyX1dpSUp6X3dTQ0Q4LTdqVmpSVXVldFhrdWtrNDdpcTZ5cmhFVTBLWFNMNlZEMnVscGE3YlliR21ucmpBb1o?oc=5",
       "selection_level": 2
     }
   ]
