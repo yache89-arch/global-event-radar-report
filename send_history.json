@@ -158,5 +158,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-10-12",
+    "events": [
+      {
+        "event": "GDC",
+        "brand": "the verge",
+        "published": ""
+      },
+      {
+        "event": "apple dropped bombshell october",
+        "brand": "apple",
+        "published": "2026-10-10T13:00:12Z"
+      },
+      {
+        "event": "bmw electric car launch today bmw",
+        "brand": "bmw",
+        "published": "2026-10-11T02:16:39Z"
+      }
+    ]
   }
 ]
