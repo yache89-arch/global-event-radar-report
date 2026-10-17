@@ -1,44 +1,45 @@
 {
   "ready": true,
-  "generated_at": "2026-10-12T10:55:42.828922+09:00",
+  "generated_at": "2026-10-17T09:54:30.596510+09:00",
   "events": [
     {
-      "event": "GDC",
-      "title": "My favorite game from GDC just got delayed.",
-      "what_happened": "GDC 관련 메시지에서 좋아하는 게임의 출시 지연 소식 제시 · 지연된 게임명과 새 출시 일정은 공개되지 않음",
+      "event": "Porsche Club of America — World Premiere",
+      "title": "Porsche Mission S WORLD PREMIERE! The story behind the new Super Sports Car",
+      "what_happened": "Porsche Mission S WORLD PREMIERE! The story behind the new Super Sports Car · Events | The Porsche Club of America",
       "summary_points": [
-        "GDC 관련 메시지에서 좋아하는 게임의 출시 지연 소식 제시",
-        "지연된 게임명과 새 출시 일정은 공개되지 않음"
+        "Porsche Mission S WORLD PREMIERE! The story behind the new Super Sports Car",
+        "Events | The Porsche Club of America",
+        "Join the PCA at these amazing national events!"
       ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxQWEJHOTNSUUtXVC1oVzlqNExiMkdnWVptcjFHZ2ROeFRPUllJR1V4UFhRZTh4eXJoVmVYY0RvT2tGd21aTkhtVlJBbDBpeVNDdUdUX2Y1TmUzUFNsNHRpUnVGLWJBZkdOY3JnRkdGVElNOWdiTEFJeG1jUDI5QjUxajd6dHpRVWlF?oc=5",
-      "selection_level": 2
-    },
-    {
-      "event": "apple dropped bombshell october",
-      "title": "Apple Just Dropped a BOMBSHELL About October!",
-      "what_happened": "Apple, 10월 13일 홈 중심 제품 출시 계획 발표 · 발표 문구는 ‘Welcome home’으로 제시",
-      "summary_points": [
-        "Apple, 10월 13일 홈 중심 제품 출시 계획 발표",
-        "발표 문구는 ‘Welcome home’으로 제시",
-        "터치스크린 홈 허브·Apple TV 4K·HomePod mini가 예상 제품으로 언급됨"
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/leQYMaV8Xb8/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=leQYMaV8Xb8",
+      "thumbnail": "https://i.ytimg.com/vi/bBHNdtIaayA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=bBHNdtIaayA",
       "selection_level": 1
     },
     {
-      "event": "bmw electric car launch today bmw",
-      "title": "BMW electric car launch today #bmw #electric #cars #newcar #today #bmwelectric #tranding #bmwev #yt",
-      "what_happened": "BMW, ‘Home of X’ 행사에서 신형 BMW X5 공개 · 신형 X5는 5가지 구동계 옵션으로 제공될 예정",
+      "event": "kommt nach dem smartphone",
+      "title": "Was kommt nach dem Smartphone?",
+      "what_happened": "Was kommt nach dem Smartphone? · IFA 2026 announcements: Samsung out, Xiaomi in",
       "summary_points": [
-        "BMW, ‘Home of X’ 행사에서 신형 BMW X5 공개",
-        "신형 X5는 5가지 구동계 옵션으로 제공될 예정",
-        "BMW iX5는 2026년 말부터 미국 생산 시작 예정"
+        "Was kommt nach dem Smartphone?",
+        "IFA 2026 announcements: Samsung out, Xiaomi in",
+        "IFA 2026: the biggest tech and gadget announcements | The Verge"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/-d8cat1pHBY/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=-d8cat1pHBY",
-      "selection_level": 3
+      "thumbnail": "https://i.ytimg.com/vi/IyKSg0z5ktc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=IyKSg0z5ktc",
+      "selection_level": 1
+    },
+    {
+      "event": "elon musk flying car elonn musk",
+      "title": "Elon Musk Flying Car || Elonn Musk New Car Launch || Elon musk Roadster",
+      "what_happened": "Elon Musk Flying Car || Elonn Musk New Car Launch || Elon musk Roadster · Elon Musk: “Tesla close to demonstrating prototype flying car”",
+      "summary_points": [
+        "Elon Musk Flying Car || Elonn Musk New Car Launch || Elon musk Roadster",
+        "Elon Musk: “Tesla close to demonstrating prototype flying car”",
+        "Tesla CEO Elon Musk says flying cars are coming"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/hF-fYV3vhpA/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=hF-fYV3vhpA",
+      "selection_level": 1
     }
   ]
 }

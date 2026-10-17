@@ -178,5 +178,25 @@
         "published": "2026-10-11T02:16:39Z"
       }
     ]
+  },
+  {
+    "date": "2026-10-17",
+    "events": [
+      {
+        "event": "Porsche Club of America — World Premiere",
+        "brand": "porsche",
+        "published": "2026-10-16T16:22:10Z"
+      },
+      {
+        "event": "kommt nach dem smartphone",
+        "brand": "ifa",
+        "published": "2026-10-16T15:00:29Z"
+      },
+      {
+        "event": "elon musk flying car elonn musk",
+        "brand": "tesla",
+        "published": "2026-10-16T19:11:43Z"
+      }
+    ]
   }
 ]
