@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko" data-template-version="2.1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Event Radar</title>
+<style>
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101923;--muted:#6f7a86;--line:#dce2e7;--blue:#2456e8;--cyan:#1ba7d8;--navy:#071e2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
+.wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0}
+.site-title{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink)}
+.site-date{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;padding-bottom:6px}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
+.today-grid{display:grid;gap:0}
+.pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
+.pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
+.pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
+.case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
+.summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
+.body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
+.points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
+.insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
+.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
+.reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
+.source-btn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+</style>
+</head>
+<body><div class="wrap">
+  <header class="masthead"><h1 class="site-title">Global Event Radar</h1><span class="site-date">2026.10.22</span></header>
+  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="pick">
+          <div class="no">01</div>
+          <h3>Google I/O</h3>
+          <p>Google Grapples With Employee Skepticism About New Gemini 4</p>
+        </div>
+        <div class="pick">
+          <div class="no">02</div>
+          <h3>Google Cloud Next</h3>
+          <p>New innovations in Google Distributed Cloud | Google Cloud Blog</p>
+        </div>
+        <div class="pick">
+          <div class="no">03</div>
+          <h3>Mercedes-Benz — World Premiere</h3>
+          <p>THE 140 FESTIVAL | Homecoming of the S-Class World Tour &amp; Mercedes-AMG GT SUV World Premiere</p>
+        </div></div></section>
+  
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Google I/O</h2>
+              <p class="deck">Google Grapples With Employee Skepticism About New Gemini 4 · Google’s Universal Cart shopping tool launches…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Google Grapples With Employee Skepticism About New Gemini 4</li><li>Google’s Universal Cart shopping tool launches in the US</li><li>Gmail&#x27;s Live AI Search Feature Arrives For Google AI Subscribers</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUo1VEZLVjIyY1ZXMXVfUzB5ZVpjSzlZQjFGLWVCSWdWMzYxbDJabnNMU3BuTDliOTdSb1hjcGFTNmdVWnJjcU9PVlpKeHlULUtsNjQ4X0hGaTJmVXp6eTVCVW1UODJFX2xsTGhybE95VzNWZVpnUTlDSHdrYk5rUmtZYzVzaEJ0T1o1X1psU1Y4OHVVdWMwUlBHMjhDXzNjQ21ZOUYteXYtWVZtaXVvUHFBM1M?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMitAFBVV95cUxPMUo1VEZLVjIyY1ZXMXVfUzB5ZVpjSzlZQjFGLWVCSWdWMzYxbDJabnNMU3BuTDliOTdSb1hjcGFTNmdVWnJjcU9PVlpKeHlULUtsNjQ4X0hGaTJmVXp6eTVCVW1UODJFX2xsTGhybE95VzNWZVpnUTlDSHdrYk5rUmtZYzVzaEJ0T1o1X1psU1Y4OHVVdWMwUlBHMjhDXzNjQ21ZOUYteXYtWVZtaXVvUHFBM1M?oc=5" target="_blank" rel="noopener">Bloomberg.com ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMilAFBVV95cUxPX2J5WFhBXzExbUNob1ZGczFDd0V6TU5TZlVwZHpjbnc3R2UwSHp0Tm9nWE1LNGpOcmxrQXRndnRxcnVvMTluWS10OTd6MTVVcy1TakVDX3F4M2tFY2MxcU0waXNtVVU3cG1fdjRzWU9VWnhoM1R4dU9jVGdSeXRlZnZlN2R4NW1VOWVSbTM3ek43SUxk?oc=5" target="_blank" rel="noopener">TechCrunch ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMinAFBVV95cUxPYlNxV1VZWkU1VUhXSjVpejkzOXdzeHlhY3diMW1TWklQekVPZTFVY01PZWpsQmFMdk84bDRZMlpXQ3dVRTR4TGdhbHdyeS1xeTREaEQ0LXBTNXZ1UERkTGJMcURWU29TQXYzNkFwRWl5am9WbnpVVXhUZDJ5OUxzMUlBUmN2MzBEYjduTEpfdFF6UFdCbFhUbnFVRkY?oc=5" target="_blank" rel="noopener">Engadget ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Google Cloud Next</h2>
+              <p class="deck">New innovations in Google Distributed Cloud | Google Cloud Blog · Google Cloud infrastructure at NVIDIA GTC B…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>New innovations in Google Distributed Cloud | Google Cloud Blog</li><li>Google Cloud infrastructure at NVIDIA GTC Berlin 2026 | Google Cloud Blog</li><li>Empowering SMBs to do more with Gemini</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOR1ZUajF4SHN5RG9HQlhGdk55aVFzcE9DQ25BMUU4cmpHZGxLOEs4UWpOdWxBREVPcUE4aEJZNlpBY0Y3b09NRFU5clZlN3VrN0wzOVZzeTlRU2ZnZUx0S3N5aHlKVjl5VlBsLW5yU0NzOGc2Q1lheUZfd3RuYkVwZVZHQ1U3Q2hsLVBKYjJIbkhhZlgtc0Z6LQ?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMimAFBVV95cUxOR1ZUajF4SHN5RG9HQlhGdk55aVFzcE9DQ25BMUU4cmpHZGxLOEs4UWpOdWxBREVPcUE4aEJZNlpBY0Y3b09NRFU5clZlN3VrN0wzOVZzeTlRU2ZnZUx0S3N5aHlKVjl5VlBsLW5yU0NzOGc2Q1lheUZfd3RuYkVwZVZHQ1U3Q2hsLVBKYjJIbkhhZlgtc0Z6LQ?oc=5" target="_blank" rel="noopener">Google Cloud ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOMkpDLW1NRFdVY3NqUGNtWTFheHdFV0FPMlBvWDljLVR5MV85NWZXZ2VzSW1FMm5KRWE5OXQ5V2N3dDlva3lTTTUxUEVISHAwOXdJUzUxR3h6WWdRR0NYRnV0ODB1LU9OMFVKM1k4NmNoSXdRbWVha0NmTEpZMWtrdmdDZXNxOXZkN01COEtMWF9RajNKNEs3alZOd1JuM0NmMFMyTksyWG9IM2Uw?oc=5" target="_blank" rel="noopener">Google Cloud ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMingFBVV95cUxNWnl2TmFGWlRNdEpCTXRzNTFQR294dFJEVTUtaWN6UWdRNG0yczJtQ2NDTGd0OG14S0VjTU5hREFnVE1RVnZXOWNCc0FkcDJIU1o3ck0wcXdXQXpSQVRRQ09takt2QWZEVmRKTC02RzFMSi1mSW11b3hENDZFR2Z1UmJhRG9uTWRMOG9xYkR3THJNQ1N4ZFJsTGdkTHl3Zw?oc=5" target="_blank" rel="noopener">Google Cloud ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Mercedes-Benz — World Premiere</h2>
+              <p class="deck">THE 140 FESTIVAL | Homecoming of the S-Class World Tour &amp; Mercedes-AMG GT SUV World Premiere · Mercedes-Benz…</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-10-17</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>THE 140 FESTIVAL | Homecoming of the S-Class World Tour &amp; Mercedes-AMG GT SUV World Premiere</li><li>Mercedes-Benz USA Media Newsroom</li><li>140 years of the automobile - Mercedes-Benz</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>발표 구조:</strong> 공식 발표에서 무엇을 먼저 보여주고, 무엇을 뒤에 배치했는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=35YBIxC--qA" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://media.mbusa.com/all-corporate-news-media" target="_blank" rel="noopener">media.mbusa.com ↗</a><a class="source-btn" href="https://www.mercedes-benz.com/en/art-and-culture/museum/events/140-festival" target="_blank" rel="noopener">mercedes-benz.com ↗</a><a class="source-btn" href="https://media.mbusa.com/download-media/9349" target="_blank" rel="noopener">media.mbusa.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+</div></body></html>

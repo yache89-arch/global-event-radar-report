@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-21",
-    "events": [
-      {
-        "event": "Dreamforce",
-        "brand": "salesforce",
-        "published": "2026-09-19T17:00:16Z"
-      },
-      {
-        "event": "Google I/O",
-        "brand": "google",
-        "published": ""
-      },
-      {
-        "event": "Disney Plus UK — Runway",
-        "brand": "disney",
-        "published": "2026-09-20T15:45:23Z"
-      }
-    ]
-  },
-  {
     "date": "2026-09-22",
     "events": [
       {
@@ -196,6 +176,26 @@
         "event": "elon musk flying car elonn musk",
         "brand": "tesla",
         "published": "2026-10-16T19:11:43Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-10-22",
+    "events": [
+      {
+        "event": "Google I/O",
+        "brand": "apple",
+        "published": ""
+      },
+      {
+        "event": "Google Cloud Next",
+        "brand": "google",
+        "published": ""
+      },
+      {
+        "event": "Mercedes-Benz — World Premiere",
+        "brand": "mercedes",
+        "published": "2026-10-17T19:25:26Z"
       }
     ]
   }
