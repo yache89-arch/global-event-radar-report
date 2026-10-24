@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-09-23",
-    "events": [
-      {
-        "event": "Snapdragon Summit",
-        "brand": "snapdragon",
-        "published": "2026-09-22T21:04:42Z"
-      },
-      {
-        "event": "Microsoft Build",
-        "brand": "microsoft",
-        "published": ""
-      },
-      {
-        "event": "Microsoft Ignite",
-        "brand": "microsoft",
-        "published": ""
-      }
-    ]
-  },
-  {
     "date": "2026-09-26",
     "events": [
       {
@@ -195,6 +175,26 @@
       {
         "event": "Cannes Lions",
         "brand": "netflix",
+        "published": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-10-24",
+    "events": [
+      {
+        "event": "Microsoft Build",
+        "brand": "microsoft",
+        "published": ""
+      },
+      {
+        "event": "Microsoft Ignite",
+        "brand": "microsoft",
+        "published": ""
+      },
+      {
+        "event": "Snapdragon Summit",
+        "brand": "snapdragon",
         "published": ""
       }
     ]
