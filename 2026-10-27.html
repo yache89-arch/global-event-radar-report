@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="ko" data-template-version="2.1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Event Radar</title>
+<style>
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101923;--muted:#6f7a86;--line:#dce2e7;--blue:#2456e8;--cyan:#1ba7d8;--navy:#071e2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
+.wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0}
+.site-title{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink)}
+.site-date{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;padding-bottom:6px}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
+.today-grid{display:grid;gap:0}
+.pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
+.pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
+.pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
+.case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
+.summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
+.body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
+.points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
+.insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
+.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
+.reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
+.source-btn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+</style>
+</head>
+<body><div class="wrap">
+  <header class="masthead"><h1 class="site-title">Global Event Radar</h1><span class="site-date">2026.10.27</span></header>
+  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="pick">
+          <div class="no">01</div>
+          <h3>Made by Google</h3>
+          <p>Made by Google Gemini music</p>
+        </div>
+        <div class="pick">
+          <div class="no">02</div>
+          <h3>NVIDIA GTC</h3>
+          <p>Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026</p>
+        </div>
+        <div class="pick">
+          <div class="no">03</div>
+          <h3>Meta Connect</h3>
+          <p>Meta Connect 2026: The biggest news and announcements</p>
+        </div></div></section>
+  
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Made by Google</h2>
+              <p class="deck">Made by Google Gemini music · What has been the best Google Pixel to date? [Poll]</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-10-26</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Made by Google Gemini music</li><li>What has been the best Google Pixel to date? [Poll]</li><li>11K views · 619 reactions | The full 👏 Pixel 👏 lineup👏 has arrived, delivering intelligence that multitasks for you 🚨Here&#x27;s the recap of everything un</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>제품 연결:</strong> 기술 메시지가 실제 제품 경험과 어떻게 연결되는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=47mkDMTb_AM" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxPTGFLVFBGbU5kc1Q0V1ZyZkY1ckppR3FrLURlYWd1bTYzcjFMOUxRRlN5eVJfdTh3c1RIdXNMaDFZVDhZanYxSU5FbjZvdjE3OEU0Z0w2bXZqQ1c1WktjTTNiNXI2OFZ1eXRPek13MldRQ1FyZThHUnd6c1pIbENWWFV1M0FaYW5KdFFJ?oc=5" target="_blank" rel="noopener">9to5Google ↗</a><a class="source-btn" href="https://www.facebook.com/madebygoogle/videos/the-full-pixel-lineup-has-arrived-delivering-intelligence-that-multitasks-for-yo/1938783380140889" target="_blank" rel="noopener">facebook.com ↗</a><a class="source-btn" href="https://blog.google/innovation-and-ai/technology/ai/google-io-2026-all-our-announcements" target="_blank" rel="noopener">blog.google ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>NVIDIA GTC</h2>
+              <p class="deck">Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026 · Google Cloud infrastructure at NVIDIA GTC Berli…</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-10-25</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026</li><li>Google Cloud infrastructure at NVIDIA GTC Berlin 2026 | Google Cloud Blog</li><li>On the ground at Nvidia&#x27;s AI showpiece: Jensen-mania, robot ducks and neocloud distress</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="reaction">
+              <div class="label">반응</div>
+              <p>댓글에서 company, don, will, future 관련 언급이 반복됨</p>
+            </section>
+            <section class="sources ">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=rF1EsryCAwc" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMirAFBVV95cUxOMkpDLW1NRFdVY3NqUGNtWTFheHdFV0FPMlBvWDljLVR5MV85NWZXZ2VzSW1FMm5KRWE5OXQ5V2N3dDlva3lTTTUxUEVISHAwOXdJUzUxR3h6WWdRR0NYRnV0ODB1LU9OMFVKM1k4NmNoSXdRbWVha0NmTEpZMWtrdmdDZXNxOXZkN01COEtMWF9RajNKNEs3alZOd1JuM0NmMFMyTksyWG9IM2Uw?oc=5" target="_blank" rel="noopener">Google Cloud ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiiwFBVV95cUxNd0xnWHB0Qjh6WTIta0JjNXdDZ1VhMmtmNFEwcG4wX3d2a2Rad1J1YThEQmJJbFFndDJRQU5FLVFnamt4cUkyeTV2andYOUZZQ2ZUOHBRMjhLMkZxeXFrRVVVa2FCRXdjeVFPQkZibFNKVmRRN1ZMcFZoLVlXUnFwUjFoclY3ZkVuYlFv0gGQAUFVX3lxTE5RS3U5U1hWcTY5Rm5VcVMwVnVEdkx2bUQ3VDlDQjdBeHVDdEtsUHJiM0FqNmhUYzgtb1dlZy1pSGg1RUd4SW9Fd2oyRGpreUNYMHhvYXVYZGtyblVGdko3NDRGbjhMNmtMUW5VVmY5NUFZcVFkSGRWRldLNVE0elFIWHdGNmZTaUVuQ19RaHp3cg?oc=5" target="_blank" rel="noopener">CNBC ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMirgFBVV95cUxOdUI3QU5iX211d3BmcjFoa3dpWXROZjd4bm5rZ0ZaVkRQaEtlVmdUdkhoWlVTQzd4NkJ3Y1NBQWF0WXBtRklveXBhNzRuUHlsdnVCXzNGVzR4MG9TRU5QMUoyTzUtc0UtZEZJdVl6VGpKY05ZV2tBbEJwc0o2M2VnUHVaR1dlOE5pcU5pNWUweHZHMFkweDNXTUpzUWtJUDkwTmhqZ2dqRjZ2blhTMlE?oc=5" target="_blank" rel="noopener">Reuters ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Meta Connect</h2>
+              <p class="deck">Meta Connect 2026: The biggest news and announcements · Meta Pivots to AI Software for Business, Making Waves</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Meta Connect 2026: The biggest news and announcements</li><li>Meta Pivots to AI Software for Business, Making Waves</li><li>Publishers, advertisers call EU, UK antitrust regulators to suspend Meta&#x27;s new commercial terms</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlFUTmpyYnlVbjQzbno4WkFaWTRsSTVLVzJLck5mZ0tRZDVZUWI2M1Y4QXhJVzFlZGZ2MXkzdE1wdWdMelNUdC1KbjV4MS1XbDFUMEw0OG1RLTdaOGNwRUR4MkdkazZfbzh4d3ZMLVhPQl9nT2ZVTi1iVDBVeGFIeGJfdlp0YjY3?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlFUTmpyYnlVbjQzbno4WkFaWTRsSTVLVzJLck5mZ0tRZDVZUWI2M1Y4QXhJVzFlZGZ2MXkzdE1wdWdMelNUdC1KbjV4MS1XbDFUMEw0OG1RLTdaOGNwRUR4MkdkazZfbzh4d3ZMLVhPQl9nT2ZVTi1iVDBVeGFIeGJfdlp0YjY3?oc=5" target="_blank" rel="noopener">The Verge ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMizwFBVV95cUxNOU51QUExM3lJWWRTUE5fRHF6RHVKX0FseGFMdXJNVFFsOEg4VlkyZHFkaVIwTGJmaTh0dkZkVWlQWXpXNlBZdUpwTlp4U25jZHhSc2paWloyVWdQdnVsUzVNOXJaQ211SWQtY2RYZ08tTXJ4LXZUSm5tUUVTNmR3SFFRM2x1SG13TmlhMklQQnRmeDZOYm54RWo4eWNseTlZdmpBQjhJRkhNb250VjdmU2g4UkI5LXpMeVFwMHVzNFQ3UDctUk1kNW9Ja0tpeTg?oc=5" target="_blank" rel="noopener">Bloomberg.com ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiwwFBVV95cUxPRFBMTWVjQWZTZV9kZzdiYzVMMFlBZUFpb1Nob0k5ZGhfLTk2Qk1CUlA5blRxdmRPZGF5a3dsX0dXSGtuMFFKc21KYXlsVU9SbmRlQ3B4V0RyRllxZ0ZITjBPUWllZ3E5OWhvRmhsVHdlOFJzcnBlbkpWTWRFU3hFNE81cjlNcThSNjN1S2l2SkxwVTJua1VxQW5ZWWQ1MXNGMkp1bE9qN2RhWUFnM2lnMmVnbDRYVG9xVXlRUmZpN2VSRlE?oc=5" target="_blank" rel="noopener">Reuters ↗</a></div>
+            </section>
+          </div>
+        </article>
+</div></body></html>

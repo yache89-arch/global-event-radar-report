@@ -1,44 +1,44 @@
 {
   "ready": true,
-  "generated_at": "2026-10-24T10:15:03.215628+09:00",
+  "generated_at": "2026-10-27T10:42:42.107121+09:00",
   "events": [
     {
-      "event": "Microsoft Build",
-      "title": "Inside Track - Rebuilding our Microsoft Foundry Labs site with a three-people build team and AI",
-      "what_happened": "Inside Track - Rebuilding our Microsoft Foundry Labs site with a three-people build team and AI · The Surface Laptop Ultra Is Here: Microsoft and Nvidia Built a Premium Computer for the AI Age",
+      "event": "Made by Google",
+      "title": "Made by Google Gemini music ",
+      "what_happened": "Made by Google Gemini music · What has been the best Google Pixel to date? [Poll]",
       "summary_points": [
-        "Inside Track - Rebuilding our Microsoft Foundry Labs site with a three-people build team and AI",
-        "The Surface Laptop Ultra Is Here: Microsoft and Nvidia Built a Premium Computer for the AI Age",
-        "Advancing hardware security with open-source Integrated HSM technology"
+        "Made by Google Gemini music",
+        "What has been the best Google Pixel to date? [Poll]",
+        "11K views · 619 reactions | The full 👏 Pixel 👏 lineup👏 has arrived, delivering intelligence that multitasks for you 🚨Here's the recap of everything un"
       ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQQk51Z3J0WjlsTTBnMmw4TEhPYmxENjF1M0luRVB6TklKWWgwYlVVUFc3YkIyS3Q5UmpIb1VVZ1o0cWVIUy1aT1gxeXY0QzNMZzd0TmpCUzF6MFRCVzJBdE5ueXFUYnR6VkRvUXctQWxLUlY5WmtlWDQwdVhFaTF2S2RrNUVhbmVPWTJjT1RlNTJaSFZiUFBXU0g0NWR4VmVwMHlUcVpubTB1UmhJamVla0lxajVYNlJTa1RCbXhXMl9xdw?oc=5",
-      "selection_level": 2
+      "thumbnail": "https://i.ytimg.com/vi/47mkDMTb_AM/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=47mkDMTb_AM",
+      "selection_level": 1
     },
     {
-      "event": "Microsoft Ignite",
-      "title": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-      "what_happened": "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026 · ​​Beyond source code: A path to the keys to the kingdom",
+      "event": "NVIDIA GTC",
+      "title": "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026",
+      "what_happened": "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026 · Google Cloud infrastructure at NVIDIA GTC Berlin 2026 | Google Cloud Blog",
       "summary_points": [
-        "​​Secure what’s next: Your guide to Microsoft Security at Microsoft Ignite 2026",
-        "​​Beyond source code: A path to the keys to the kingdom",
-        "Managing open-weight model risk in enterprise deployments"
+        "Jensen Huang’s Keynote Highlights at NVIDIA GTC Berlin 2026",
+        "Google Cloud infrastructure at NVIDIA GTC Berlin 2026 | Google Cloud Blog",
+        "On the ground at Nvidia's AI showpiece: Jensen-mania, robot ducks and neocloud distress"
       ],
-      "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNSEpMNXV3M0owaTc3akJ2WFZOcC1qNnpRdE56c3VsS1M0ZVJGLWhNaWlHOW0xUHcxT2lUNU81M1VPNHN0YzZjeVpNZWVKREhHc1gwX2pjYVhRRDNzQUFhdWxNSWt6RDVNVGdrN2RUSlNjMEJFM1BDejlRVmJYNkx0R3hSS2hSYXZGSndwVllVb2FTT05aa0xES21pN3pOdEN2RWZzbE1oZzhCWk94cjlyYUgtTTFLNWU3c2VIYndtZ0hNT0Y3alVXMlpHVzE1QQ?oc=5",
-      "selection_level": 2
+      "thumbnail": "https://i.ytimg.com/vi/rF1EsryCAwc/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=rF1EsryCAwc",
+      "selection_level": 1
     },
     {
-      "event": "Snapdragon Summit",
-      "title": "The Top Snapdragon Summit 2026 Moments Everyone’s Talking About",
-      "what_happened": "The Top Snapdragon Summit 2026 Moments Everyone’s Talking About · Microsoft’s New Surface Laptops Embody the PC-Phone Marriage Snapdragon Promised Years Ago",
+      "event": "Meta Connect",
+      "title": "Meta Connect 2026: The biggest news and announcements",
+      "what_happened": "Meta Connect 2026: The biggest news and announcements · Meta Pivots to AI Software for Business, Making Waves",
       "summary_points": [
-        "The Top Snapdragon Summit 2026 Moments Everyone’s Talking About",
-        "Microsoft’s New Surface Laptops Embody the PC-Phone Marriage Snapdragon Promised Years Ago",
-        "PrismML brings its tiny LLMs to Qualcomm-powered smart glasses"
+        "Meta Connect 2026: The biggest news and announcements",
+        "Meta Pivots to AI Software for Business, Making Waves",
+        "Publishers, advertisers call EU, UK antitrust regulators to suspend Meta's new commercial terms"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQdklWUExXM1Q4N2NkTEliZF9ONnJzbnBKME9lQWpFSm5OWENjZmN3OElqMFdxTE5BejFWckxCSWQ4bmk1RUxvdmJDQlFLeExfaDQ2SExTWFMtTFZwTWc1WU5kNmp1dlNKdjN6MXU5cDNnWEt0RHlBZ0dBTzEwOEE1TGY5RndyZy1oZjVzREY2T1dISjhWaVhHUjhIOEpVNnZweDhvanhYbw?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxOYlFUTmpyYnlVbjQzbno4WkFaWTRsSTVLVzJLck5mZ0tRZDVZUWI2M1Y4QXhJVzFlZGZ2MXkzdE1wdWdMelNUdC1KbjV4MS1XbDFUMEw0OG1RLTdaOGNwRUR4MkdkazZfbzh4d3ZMLVhPQl9nT2ZVTi1iVDBVeGFIeGJfdlp0YjY3?oc=5",
       "selection_level": 2
     }
   ]
