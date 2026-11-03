@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko" data-template-version="2.1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Event Radar</title>
+<style>
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101923;--muted:#6f7a86;--line:#dce2e7;--blue:#2456e8;--cyan:#1ba7d8;--navy:#071e2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
+.wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0}
+.site-title{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink)}
+.site-date{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;padding-bottom:6px}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
+.today-grid{display:grid;gap:0}
+.pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
+.pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
+.pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
+.case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
+.summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
+.body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
+.points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
+.insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
+.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
+.reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
+.source-btn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+</style>
+</head>
+<body><div class="wrap">
+  <header class="masthead"><h1 class="site-title">Global Event Radar</h1><span class="site-date">2026.11.03</span></header>
+  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="pick">
+          <div class="no">01</div>
+          <h3>Dreamforce</h3>
+          <p>Breakingviews - COMMENTARY: The Week in Breakingviews: Myopia in Anthropia</p>
+        </div>
+        <div class="pick">
+          <div class="no">02</div>
+          <h3>Mini Content  — World Premiere</h3>
+          <p>New 2026 Mercedes Actros NextGenH2 Truck: World Premiere</p>
+        </div>
+        <div class="pick">
+          <div class="no">03</div>
+          <h3>carregando ess ncia cristo gabriela paz</h3>
+          <p>Carregando a essência de Cristo | Prª Gabriela da Paz | CULTO de CEIA | Noite</p>
+        </div></div></section>
+  
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Dreamforce</h2>
+              <p class="deck">Breakingviews - COMMENTARY: The Week in Breakingviews: Myopia in Anthropia · OpenAI says human intent at cent…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Breakingviews - COMMENTARY: The Week in Breakingviews: Myopia in Anthropia</li><li>OpenAI says human intent at center of updated AI model guidelines</li><li>Anthropic IPO stands alone as AI market jitters sideline others</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ19RaE5xT1czdWp1dnFuUVNRRDFGekZQbHpNcm9PQS0wLTlLSHFFejlnVE5pcmdMbGNhbTRETGV4TUxFQ2lHUFlYRnVxVTAwN1BPLVVaNXRZN05JTGJ1RjZsdTRRZlo2eXgtUjN4N2pGa0xpNFhfclZGOVF2TngyUWIwUkpqcjk1dVRjUzkxVlFfWms?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMikwFBVV95cUxNQ19RaE5xT1czdWp1dnFuUVNRRDFGekZQbHpNcm9PQS0wLTlLSHFFejlnVE5pcmdMbGNhbTRETGV4TUxFQ2lHUFlYRnVxVTAwN1BPLVVaNXRZN05JTGJ1RjZsdTRRZlo2eXgtUjN4N2pGa0xpNFhfclZGOVF2TngyUWIwUkpqcjk1dVRjUzkxVlFfWms?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxOOVJkSkh4RzdFdms2Y0ZpUGFVN0NReFlhbzJYZFlZTHlwZVRMenpJSXVwOW5vNzF2NW5FZldUQ3d4V003Yi13ZWtub0hIanAzdkVBcU5sMmgzSHcwZFg4X1ZnbDlxWjM5WkV4YUdDRGVfdXNvX0JHSkF6UThZdWNkcFRyUEwxQmlrMHFaRDcySTZRZTYzbU95QTJHeXJvUE1XOWluMV9ndw?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMitwFBVV95cUxNX2RHNFI2M0VmLTVfUGwyWjBzTFZwcHBoNlFwZEttM3NHOHBVQzJmZmp0YV81V1lyX2VCWFZGMENVZzRhV3lPbVYzQWE1cHIwejVtbzlGR1hmMWpPTUlhM2pObDMyM1ZBMmEtbm14QXVnMUkzRnZvY25sTHlXM0hmTnNwbGx4SjNGaVhseGNHUVVQb0VzaVFVWTdVTUVMWkRVMS1JaFZWbDkzNmF5UEtWWWs2TEZxdjA?oc=5" target="_blank" rel="noopener">Reuters ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Mini Content  — World Premiere</h2>
+              <p class="deck">New 2026 Mercedes Actros NextGenH2 Truck: World Premiere · World premiere of the all-new Mercedes-Benz GLA |…</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-11-03</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>New 2026 Mercedes Actros NextGenH2 Truck: World Premiere</li><li>World premiere of the all-new Mercedes-Benz GLA | Mercedes-Benz Media</li><li>EQS World Premiere on Mercedes me media - digital launch of the progressive electric saloon | Releases | Official Media Website - Mercedes-Benz Cars U</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>발표 구조:</strong> 공식 발표에서 무엇을 먼저 보여주고, 무엇을 뒤에 배치했는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=RLeuWrcuRn0" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://media.mercedes-benz.com/en/worldpremiere-gla-2026" target="_blank" rel="noopener">media.mercedes-benz.com ↗</a><a class="source-btn" href="https://mercedes-benz-media.co.uk/releases/1414" target="_blank" rel="noopener">mercedes-benz-media.co.uk ↗</a><a class="source-btn" href="https://www.formula1.com/en/latest/article/mercedes-confirm-date-for-first-look-at-2026-f1-car.10sKwXuxkssOmrYV0AMO3E" target="_blank" rel="noopener">formula1.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>carregando ess ncia cristo gabriela paz</h2>
+              <p class="deck">Carregando a essência de Cristo | Prª Gabriela da Paz | CULTO de CEIA | Noite · Conferencia general de 2026 –…</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-11-02</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Carregando a essência de Cristo | Prª Gabriela da Paz | CULTO de CEIA | Noite</li><li>Conferencia general de 2026 – Iglesia de Jesucristo</li><li>Conferencia General - Church News</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>발표 구조:</strong> 공식 발표에서 무엇을 먼저 보여주고, 무엇을 뒤에 배치했는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=-22B4XsaBsw" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://www.churchofjesuschrist.org/feature/general-conference?lang=spa" target="_blank" rel="noopener">churchofjesuschrist.org ↗</a><a class="source-btn" href="https://es.thechurchnews.com/conferencia-general" target="_blank" rel="noopener">es.thechurchnews.com ↗</a><a class="source-btn" href="https://www.instagram.com/p/DRDdU6HElwm" target="_blank" rel="noopener">instagram.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+</div></body></html>

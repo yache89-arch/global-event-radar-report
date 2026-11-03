@@ -1,85 +1,5 @@
 [
   {
-    "date": "2026-09-27",
-    "events": [
-      {
-        "event": "AWS re:Invent",
-        "brand": "aws",
-        "published": ""
-      },
-      {
-        "event": "MWC",
-        "brand": "mwc",
-        "published": ""
-      },
-      {
-        "event": "IFA",
-        "brand": "nvidia",
-        "published": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-09-28",
-    "events": [
-      {
-        "event": "COMPUTEX",
-        "brand": "computex",
-        "published": ""
-      },
-      {
-        "event": "VivaTech",
-        "brand": "microsoft",
-        "published": ""
-      },
-      {
-        "event": "Web Summit",
-        "brand": "reuters",
-        "published": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-10-02",
-    "events": [
-      {
-        "event": "Gamescom",
-        "brand": "samsung",
-        "published": ""
-      },
-      {
-        "event": "OpenAI Event",
-        "brand": "the verge",
-        "published": ""
-      },
-      {
-        "event": "GitHub Universe",
-        "brand": "microsoft",
-        "published": ""
-      }
-    ]
-  },
-  {
-    "date": "2026-10-03",
-    "events": [
-      {
-        "event": "Hyundai Motor Group — World Premiere",
-        "brand": "hyundai",
-        "published": "2026-10-01T08:35:52Z"
-      },
-      {
-        "event": "Nintendo Direct",
-        "brand": "engadget",
-        "published": ""
-      },
-      {
-        "event": "PlayStation State of Play",
-        "brand": "engadget",
-        "published": ""
-      }
-    ]
-  },
-  {
     "date": "2026-10-12",
     "events": [
       {
@@ -196,6 +116,26 @@
         "event": "Meta Connect",
         "brand": "meta",
         "published": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-11-03",
+    "events": [
+      {
+        "event": "Dreamforce",
+        "brand": "reuters",
+        "published": ""
+      },
+      {
+        "event": "Mini Content  — World Premiere",
+        "brand": "mercedes",
+        "published": "2026-11-03T01:44:49Z"
+      },
+      {
+        "event": "carregando ess ncia cristo gabriela paz",
+        "brand": "ces",
+        "published": "2026-11-02T12:36:38Z"
       }
     ]
   }
