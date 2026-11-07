@@ -158,5 +158,25 @@
         "published": "2026-11-01T10:10:15Z"
       }
     ]
+  },
+  {
+    "date": "2026-11-07",
+    "events": [
+      {
+        "event": "MWC",
+        "brand": "ces",
+        "published": ""
+      },
+      {
+        "event": "COMPUTEX",
+        "brand": "nvidia",
+        "published": ""
+      },
+      {
+        "event": "GitHub Universe",
+        "brand": "microsoft",
+        "published": ""
+      }
+    ]
   }
 ]
