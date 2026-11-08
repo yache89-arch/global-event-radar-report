@@ -178,5 +178,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-11-08",
+    "events": [
+      {
+        "event": "VivaTech",
+        "brand": "vivatech",
+        "published": ""
+      },
+      {
+        "event": "Web Summit",
+        "brand": "reuters",
+        "published": ""
+      },
+      {
+        "event": "Toyota Oman — Launch Event",
+        "brand": "toyota",
+        "published": "2026-11-04T17:01:22Z"
+      }
+    ]
   }
 ]

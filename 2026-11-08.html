@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko" data-template-version="2.1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Event Radar</title>
+<style>
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101923;--muted:#6f7a86;--line:#dce2e7;--blue:#2456e8;--cyan:#1ba7d8;--navy:#071e2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
+.wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0}
+.site-title{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink)}
+.site-date{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;padding-bottom:6px}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
+.today-grid{display:grid;gap:0}
+.pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
+.pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
+.pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
+.case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
+.summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
+.body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
+.points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
+.insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
+.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
+.reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
+.source-btn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+</style>
+</head>
+<body><div class="wrap">
+  <header class="masthead"><h1 class="site-title">Global Event Radar</h1><span class="site-date">2026.11.08</span></header>
+  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="pick">
+          <div class="no">01</div>
+          <h3>VivaTech</h3>
+          <p>Cohere moves to buy AI cybersecurity startup Aisle</p>
+        </div>
+        <div class="pick">
+          <div class="no">02</div>
+          <h3>Web Summit</h3>
+          <p>Accenture looks to sell Chinese operations for up to $1.5 billion, FT reports</p>
+        </div>
+        <div class="pick">
+          <div class="no">03</div>
+          <h3>Toyota Oman — Launch Event</h3>
+          <p>bZ4X Launch Event | Toyota Oman</p>
+        </div></div></section>
+  
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>VivaTech</h2>
+              <p class="deck">Cohere moves to buy AI cybersecurity startup Aisle · COMMENTARY: Private credit’s huge AI footprint obscures…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Cohere moves to buy AI cybersecurity startup Aisle</li><li>COMMENTARY: Private credit’s huge AI footprint obscures growing risks</li><li>Meta has strong chance of getting $25 billion New Mexico penalty slashed on appeal, experts say</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNUE9DbHl3UklEenZpVjFtNVpCb1RXY0ljendQMVZudHZGSFRiYk4tT2hsNk5KMjJIVDhjbDVyVXNxSkVXS0JmaTFUSml1XzNsdDdpQjBJNDd1MFlEdmdPNFE5VDMwbEc3dWhUTWdGT2ZzbVdScGJtTkFjNkdMT19KYVRXUTI4b1d0eE9KVHhPWUhFbTFPQlRsVWVTdC1EbEMyODlkc2FR?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMipgFBVV95cUxNUE9DbHl3UklEenZpVjFtNVpCb1RXY0ljendQMVZudHZGSFRiYk4tT2hsNk5KMjJIVDhjbDVyVXNxSkVXS0JmaTFUSml1XzNsdDdpQjBJNDd1MFlEdmdPNFE5VDMwbEc3dWhUTWdGT2ZzbVdScGJtTkFjNkdMT19KYVRXUTI4b1d0eE9KVHhPWUhFbTFPQlRsVWVTdC1EbEMyODlkc2FR?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMi1AFBVV95cUxONW1wWWw1XzBrM3RnRHgwTzVSRnlINGkxZXhlaDF3Y3k1TFVxcUYwSm9ybElaUkVYSlVPZ1FUbGs1QnBPZXdhMmFPd19aU1RzVmJNWDBwRXp4dEFkRmw3NDE4MXdQeDNFUWdtWElDVzNWM0o1WkVfMzZ0a0RGVnFyRDdrQUtXOFpPbUFQVzR4WUZqSmQwand5RTR6NU5WM0toWVBFdGYwczMxbWQ1VThUWGxyUThCSUxEUUZXaVJvMGdTc3ROanFYUF91WFppb3ppQ2hSaQ?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMivAFBVV95cUxNNmJDVWZDbGFIeUdUbnJCT1lxWFVMN3RJbENSdm1QRTZkcExxb3NNV1Q0UFlRbUl2Ymk2TXZTQjd1dDAtUGdvRVJxZVVrZHJwS0tULWI2YlRmV3RVUnI0emhqcXVfVmw5cTZEZ0FORDcyZTBKejh2Z203Z2t2Wmhud2FlMWl5MHY5UzRNME85LUZueDJqRnJnQnU4U3RiWlh6UDN3UEc2c1BSQUdTODd2b1F0d05jUGUwdzFmRw?oc=5" target="_blank" rel="noopener">Reuters ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Web Summit</h2>
+              <p class="deck">Accenture looks to sell Chinese operations for up to $1.5 billion, FT reports · Web Summit - Wikipedia</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Accenture looks to sell Chinese operations for up to $1.5 billion, FT reports</li><li>Web Summit - Wikipedia</li><li>Check out the 2026 program | Web Summit | November 9-12, 2026</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPclpuVDB0RzZFQ19mQVFfSzRwT0pRUmptLTlHZTZZakFzVlA1ajZyS05lb0h0VmllRHhYVm5xODlCSXZMc29xSzdrOXh1RXd6YlA0NXFQTzkyTGF6aTZZX3hoMGVpalVhb2ktdTZDQ1BqZEU5UVV6d3NYRTVPdTh3Vzh2Mmg0UTQzVUh2V01rYjZZR0VkYjJsSlBwNTJRbUFsT0xqUWxSOU5JdndDUjM0M0dJTnJ5VThTMGp3?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiuwFBVV95cUxPclpuVDB0RzZFQ19mQVFfSzRwT0pRUmptLTlHZTZZakFzVlA1ajZyS05lb0h0VmllRHhYVm5xODlCSXZMc29xSzdrOXh1RXd6YlA0NXFQTzkyTGF6aTZZX3hoMGVpalVhb2ktdTZDQ1BqZEU5UVV6d3NYRTVPdTh3Vzh2Mmg0UTQzVUh2V01rYjZZR0VkYjJsSlBwNTJRbUFsT0xqUWxSOU5JdndDUjM0M0dJTnJ5VThTMGp3?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://en.wikipedia.org/wiki/Web_Summit" target="_blank" rel="noopener">en.wikipedia.org ↗</a><a class="source-btn" href="https://websummit.com/schedule" target="_blank" rel="noopener">websummit.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Toyota Oman — Launch Event</h2>
+              <p class="deck">bZ4X Launch Event | Toyota Oman · Toyota to launch 10 new battery EV models by 2026</p>
+            </div>
+            <div class="meta">OFFICIAL<br>2026-11-04</div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>bZ4X Launch Event | Toyota Oman</li><li>Toyota to launch 10 new battery EV models by 2026</li><li>Toyota USA Newsroom</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li><li><strong>제품 연결:</strong> 기술 메시지가 실제 제품 경험과 어떻게 연결되는지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://www.youtube.com/watch?v=MB4fAUWsb5I" target="_blank" rel="noopener">Official video ↗</a><a class="source-btn" href="https://ca.finance.yahoo.com/news/toyota-launch-10-battery-ev-050312409.html" target="_blank" rel="noopener">ca.finance.yahoo.com ↗</a><a class="source-btn" href="https://pressroom.toyota.com" target="_blank" rel="noopener">pressroom.toyota.com ↗</a><a class="source-btn" href="https://www.toyota.com/upcoming-vehicles-hub" target="_blank" rel="noopener">toyota.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+</div></body></html>
