@@ -198,5 +198,25 @@
         "published": "2026-11-04T17:01:22Z"
       }
     ]
+  },
+  {
+    "date": "2026-11-11",
+    "events": [
+      {
+        "event": "Adobe MAX",
+        "brand": "adobe",
+        "published": "2026-11-10T15:02:36Z"
+      },
+      {
+        "event": "IFA",
+        "brand": "ifa",
+        "published": ""
+      },
+      {
+        "event": "Marvel Entertainment — Launch Event",
+        "brand": "disney",
+        "published": "2026-11-10T21:01:37Z"
+      }
+    ]
   }
 ]
