@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-10-12",
-    "events": [
-      {
-        "event": "GDC",
-        "brand": "the verge",
-        "published": ""
-      },
-      {
-        "event": "apple dropped bombshell october",
-        "brand": "apple",
-        "published": "2026-10-10T13:00:12Z"
-      },
-      {
-        "event": "bmw electric car launch today bmw",
-        "brand": "bmw",
-        "published": "2026-10-11T02:16:39Z"
-      }
-    ]
-  },
-  {
     "date": "2026-10-17",
     "events": [
       {
@@ -216,6 +196,26 @@
         "event": "Marvel Entertainment — Launch Event",
         "brand": "disney",
         "published": "2026-11-10T21:01:37Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-13",
+    "events": [
+      {
+        "event": "GDC",
+        "brand": "google",
+        "published": ""
+      },
+      {
+        "event": "nvidia bigger than founder",
+        "brand": "nvidia",
+        "published": "2026-11-12T17:13:13Z"
+      },
+      {
+        "event": "automobile music remix car launch bmw",
+        "brand": "bmw",
+        "published": "2026-11-10T09:00:05Z"
       }
     ]
   }

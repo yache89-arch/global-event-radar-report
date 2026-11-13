@@ -1,44 +1,44 @@
 {
   "ready": true,
-  "generated_at": "2026-11-11T11:22:29.074759+09:00",
+  "generated_at": "2026-11-13T12:02:01.421687+09:00",
   "events": [
     {
-      "event": "Adobe MAX",
-      "title": "What’s New in Creative Cloud and Adobe Firefly | Adobe MAX 2026",
-      "what_happened": "What’s New in Creative Cloud and Adobe Firefly | Adobe MAX 2026 · Adobe MAX brings new editing tools and more AI to Creative Cloud",
+      "event": "GDC",
+      "title": "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search",
+      "what_happened": "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search · New innovations in Google Distributed Cloud | Google Cloud Blog",
       "summary_points": [
-        "What’s New in Creative Cloud and Adobe Firefly | Adobe MAX 2026",
-        "Adobe MAX brings new editing tools and more AI to Creative Cloud",
-        "We’re bringing Adobe’s creative and productivity tools closer to your everyday Google apps."
-      ],
-      "thumbnail": "https://i.ytimg.com/vi/03Wsvj-LmYk/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=03Wsvj-LmYk",
-      "selection_level": 1
-    },
-    {
-      "event": "IFA",
-      "title": "Electrolux halves redundancies in Italy under revised industrial plan",
-      "what_happened": "Electrolux halves redundancies in Italy under revised industrial plan · IFA 2025: Premium brand AEG unveils most silent and efficient dishwasher ever made",
-      "summary_points": [
-        "Electrolux halves redundancies in Italy under revised industrial plan",
-        "IFA 2025: Premium brand AEG unveils most silent and efficient dishwasher ever made",
-        "IFA 2026: AMD Teases Major AI Announcements For Opening Keynote – channelnews"
+        "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search",
+        "New innovations in Google Distributed Cloud | Google Cloud Blog",
+        "More game developers are starting to use generative AI"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxNUDVyZjR5Ry1jRUt6bFBzaHpkWjdLS1dsRWN0bE5UUk9fM3QxRWdJQTY5ZTA1S01ZX25iajFtWUQ2WDhNdHNhVDFtSUR2T0VXZnhsRWF2b2M4SFNudzJNZEJPSXhzWWN1aTNSakdjMUlxYVk4dWJYUmRkeXVqRC12LWpTVnlDZFBJYndQNlh4R2pLYnhJU0dGR0s5SkhCTnpsaEgyTjNjbnRLTE00V3FndnJPY0ZHdnd0ZUJpaDFneEdVNlVmb19pNnhyMFpaUQ?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnc4Q2c3LTZNWHlpSW9TZ3hBSXNoSGVGTFZ4ZFIxb1dtSUh4TWlkZVZvdUZkTGxTSXNxeVVTR0lVWnFxT0doUVpuc0ZQTFBkWkxuVF9JODNrN1RPa1RpSVM3bkdfRXJ1ZHhGbjU1ak9BcUVFZUpCZ18za1NKcmxtdmNKN1Nha1ZxUWZQZk91SWhTQzRBNm4xeUwxZnIzWDAxVno2NXhGXzhjZUMxbTVDTFZzcEVWQVZzai1jcWdScmZEWU5jZWVpYk1BZw?oc=5",
       "selection_level": 2
     },
     {
-      "event": "Marvel Entertainment — Launch Event",
-      "title": "Marvel Television's VisionQuest Finale Launch Event | Stream on Disney+",
-      "what_happened": "Marvel Television's VisionQuest Finale Launch Event | Stream on Disney+ · D23 2026: Disney Reveals What’s Next in Entertainment | The Walt Disney Company",
+      "event": "nvidia bigger than founder",
+      "title": "Is NVIDIA bigger than its founder?",
+      "what_happened": "Is NVIDIA bigger than its founder? · ‘This Is Getting Bigger,’ Nvidia (NVDA) Signals $1 Trillion AI Demand at GTC | Markets Insider",
       "summary_points": [
-        "Marvel Television's VisionQuest Finale Launch Event | Stream on Disney+",
-        "D23 2026: Disney Reveals What’s Next in Entertainment | The Walt Disney Company",
-        "All the Marvel News from D23 2026 | Marvel"
+        "Is NVIDIA bigger than its founder?",
+        "‘This Is Getting Bigger,’ Nvidia (NVDA) Signals $1 Trillion AI Demand at GTC | Markets Insider",
+        "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES | NVIDIA Blog"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/N0eiWwHqy2Q/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=N0eiWwHqy2Q",
+      "thumbnail": "https://i.ytimg.com/vi/c4nlV5UByTk/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=c4nlV5UByTk",
+      "selection_level": 1
+    },
+    {
+      "event": "automobile music remix car launch bmw",
+      "title": "#automobile #music #remix # new car launch #BMW M4",
+      "what_happened": "#automobile #music #remix # new car launch #BMW M4 · BMW Partners with MOG on a NEW BMW App",
+      "summary_points": [
+        "#automobile #music #remix # new car launch #BMW M4",
+        "BMW Partners with MOG on a NEW BMW App",
+        "PRESS STREAMING"
+      ],
+      "thumbnail": "https://i.ytimg.com/vi/3-vUUmD8Nl4/hqdefault.jpg",
+      "video_url": "https://www.youtube.com/watch?v=3-vUUmD8Nl4",
       "selection_level": 3
     }
   ]
