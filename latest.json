@@ -1,45 +1,45 @@
 {
   "ready": true,
-  "generated_at": "2026-11-13T12:02:01.421687+09:00",
+  "generated_at": "2026-11-22T11:44:31.491576+09:00",
   "events": [
     {
-      "event": "GDC",
-      "title": "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search",
-      "what_happened": "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search · New innovations in Google Distributed Cloud | Google Cloud Blog",
+      "event": "Google I/O",
+      "title": "Google Adds 66 Regional Dialects To Gemini",
+      "what_happened": "Google Adds 66 Regional Dialects To Gemini · Gemini rolling out 66 new regional voices on Android and iOS, including 10+ UK dialects",
       "summary_points": [
-        "Managed RAG search inside the sovereign perimeter: Gemini on GDC enterprise search",
-        "New innovations in Google Distributed Cloud | Google Cloud Blog",
-        "More game developers are starting to use generative AI"
+        "Google Adds 66 Regional Dialects To Gemini",
+        "Gemini rolling out 66 new regional voices on Android and iOS, including 10+ UK dialects",
+        "이번 달 Google Cloud의 AI 관련 발표"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNdnc4Q2c3LTZNWHlpSW9TZ3hBSXNoSGVGTFZ4ZFIxb1dtSUh4TWlkZVZvdUZkTGxTSXNxeVVTR0lVWnFxT0doUVpuc0ZQTFBkWkxuVF9JODNrN1RPa1RpSVM3bkdfRXJ1ZHhGbjU1ak9BcUVFZUpCZ18za1NKcmxtdmNKN1Nha1ZxUWZQZk91SWhTQzRBNm4xeUwxZnIzWDAxVno2NXhGXzhjZUMxbTVDTFZzcEVWQVZzai1jcWdScmZEWU5jZWVpYk1BZw?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3JnSGtXMl9XQTlMWHhQQ0RCVWFrTUlfQnYzUS1NZzIwX1FVNnVfYVZvVjA1Z2EtMmVQN0huZkFYS29XNm1UNF9tekplVXdBczJyWDA1QXNxSEpkZVJLeWh3YnJzTGtMYnNwYkFZSEw2VjhKRDgwRWJsZG1MaE5OY0d3?oc=5",
       "selection_level": 2
     },
     {
-      "event": "nvidia bigger than founder",
-      "title": "Is NVIDIA bigger than its founder?",
-      "what_happened": "Is NVIDIA bigger than its founder? · ‘This Is Getting Bigger,’ Nvidia (NVDA) Signals $1 Trillion AI Demand at GTC | Markets Insider",
+      "event": "Google Cloud Next",
+      "title": "Google Cloud latest news and announcements",
+      "what_happened": "Google Cloud latest news and announcements · What’s new in AI infrastructure and orchestration in October",
       "summary_points": [
-        "Is NVIDIA bigger than its founder?",
-        "‘This Is Getting Bigger,’ Nvidia (NVDA) Signals $1 Trillion AI Demand at GTC | Markets Insider",
-        "NVIDIA Rubin Platform, Open Models, Autonomous Driving: NVIDIA Presents Blueprint for the Future at CES | NVIDIA Blog"
+        "Google Cloud latest news and announcements",
+        "What’s new in AI infrastructure and orchestration in October",
+        "Google Cloud Highlights EMEA Startup Momentum at Slush 2026 | Google Cloud Blog"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/c4nlV5UByTk/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=c4nlV5UByTk",
-      "selection_level": 1
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNREwxdGg2aXlreXo5blo4WENaSFZEV2NGckE3MzBTbk1WeDQ5eVJsMkdjdlNnVUx5R1QxbHJSMmVRUmRHbkZWeV9PY2ExYXhxZ19tQnpjTFlPTWtPZy1VWmdxUFBKV2dFZmt2WHR0NmQtUlR6bzRVUVZpcHpVOGVuYnR5UHBUdw?oc=5",
+      "selection_level": 2
     },
     {
-      "event": "automobile music remix car launch bmw",
-      "title": "#automobile #music #remix # new car launch #BMW M4",
-      "what_happened": "#automobile #music #remix # new car launch #BMW M4 · BMW Partners with MOG on a NEW BMW App",
+      "event": "OpenAI Event",
+      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+      "what_happened": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines · OpenAI DevDay 2026: The biggest news and announcements | The Verge",
       "summary_points": [
-        "#automobile #music #remix # new car launch #BMW M4",
-        "BMW Partners with MOG on a NEW BMW App",
-        "PRESS STREAMING"
+        "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
+        "OpenAI DevDay 2026: The biggest news and announcements | The Verge",
+        "All the news from OpenAI’s DevDay conference | The Verge"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/3-vUUmD8Nl4/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=3-vUUmD8Nl4",
-      "selection_level": 3
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhUGFoZHlrWVF0Q2lncG8xWUd0S25LRmJLYnNkaTg1eURCTzZJMkkxX1MxXzFjZHMwYjhhb25tN3NVcXFKS3oyRmVNMmlXeXlkeTQ2NG9oZ2ItT1phazJ2YVFnOVU2WHZGMUdTWWFKVQ?oc=5",
+      "selection_level": 2
     }
   ]
 }
