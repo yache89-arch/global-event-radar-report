@@ -1,44 +1,44 @@
 {
   "ready": true,
-  "generated_at": "2026-11-22T11:44:31.491576+09:00",
+  "generated_at": "2026-11-23T12:21:49.980991+09:00",
   "events": [
     {
-      "event": "Google I/O",
-      "title": "Google Adds 66 Regional Dialects To Gemini",
-      "what_happened": "Google Adds 66 Regional Dialects To Gemini · Gemini rolling out 66 new regional voices on Android and iOS, including 10+ UK dialects",
+      "event": "Apple Event",
+      "title": "Apple’s ‘Pro and Tell’ Event: Everything Announced This Week",
+      "what_happened": "Apple’s ‘Pro and Tell’ Event: Everything Announced This Week · What to expect from Apple’s ‘Pro and tell’ event",
       "summary_points": [
-        "Google Adds 66 Regional Dialects To Gemini",
-        "Gemini rolling out 66 new regional voices on Android and iOS, including 10+ UK dialects",
-        "이번 달 Google Cloud의 AI 관련 발표"
+        "Apple’s ‘Pro and Tell’ Event: Everything Announced This Week",
+        "What to expect from Apple’s ‘Pro and tell’ event",
+        "Watch Apple’s reveal video for the touchscreen MacBook Pro"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQN3JnSGtXMl9XQTlMWHhQQ0RCVWFrTUlfQnYzUS1NZzIwX1FVNnVfYVZvVjA1Z2EtMmVQN0huZkFYS29XNm1UNF9tekplVXdBczJyWDA1QXNxSEpkZVJLeWh3YnJzTGtMYnNwYkFZSEw2VjhKRDgwRWJsZG1MaE5OY0d3?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQZG5xRl9lTlVHckVwbTJxTEpyN2YzbTNqbHJ4RHJJS0Y0MXF4RTFwNF9OUkJFVDNENUZDd2c5OTEwYk9BYU1qNWZjdDN1TWxnTGNuMzRTTEhtMGNRQXFSbE5Namd0T2duSm14OGpGUkQ4X0ZOeC1BeXo0bTYtRXZXeS1OOTFxQzhUVDZmWjV4YlI2LXN1dGNyal9iZGQ?oc=5",
       "selection_level": 2
     },
     {
-      "event": "Google Cloud Next",
-      "title": "Google Cloud latest news and announcements",
-      "what_happened": "Google Cloud latest news and announcements · What’s new in AI infrastructure and orchestration in October",
+      "event": "WWDC",
+      "title": "Apple’s first smart glasses are coming together",
+      "what_happened": "Apple’s first smart glasses are coming together · Apple WWDC Keynote 2017 - Business Insider",
       "summary_points": [
-        "Google Cloud latest news and announcements",
-        "What’s new in AI infrastructure and orchestration in October",
-        "Google Cloud Highlights EMEA Startup Momentum at Slush 2026 | Google Cloud Blog"
+        "Apple’s first smart glasses are coming together",
+        "Apple WWDC Keynote 2017 - Business Insider",
+        "WWDC 2012 Keynote Announced: Apple's Big News Coming on June 11"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNREwxdGg2aXlreXo5blo4WENaSFZEV2NGckE3MzBTbk1WeDQ5eVJsMkdjdlNnVUx5R1QxbHJSMmVRUmRHbkZWeV9PY2ExYXhxZ19tQnpjTFlPTWtPZy1VWmdxUFBKV2dFZmt2WHR0NmQtUlR6bzRVUVZpcHpVOGVuYnR5UHBUdw?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQT3ZROXpKaVRUbVVnVG1ha0o4TzdLbTNsa21UVUU5aE5xaGhsMGJZRzFNYklWZk9uSXNvM0JrUDNORjMtVVZuMFdUd1lGQWUtcTRoaXR1NzNnMFFPVmpnR0E0YTFJOWRkR1lCc01STi1ST1U2QUxabGdBZzV3bmxOMDl2alloZUV1d2lrcg?oc=5",
       "selection_level": 2
     },
     {
-      "event": "OpenAI Event",
-      "title": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-      "what_happened": "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines · OpenAI DevDay 2026: The biggest news and announcements | The Verge",
+      "event": "Cannes Lions",
+      "title": "New York Times Company in advanced talks to acquire Letterboxd for roughly $330 million, NYT reports",
+      "what_happened": "New York Times Company in advanced talks to acquire Letterboxd for roughly $330 million, NYT reports · Patrick Stewart, Shakespearean actor turned 'Star Trek' and 'X-Men' star, dies at 86",
       "summary_points": [
-        "OpenAI wants to stop deepfakes from overwhelming child abuse tiplines",
-        "OpenAI DevDay 2026: The biggest news and announcements | The Verge",
-        "All the news from OpenAI’s DevDay conference | The Verge"
+        "New York Times Company in advanced talks to acquire Letterboxd for roughly $330 million, NYT reports",
+        "Patrick Stewart, Shakespearean actor turned 'Star Trek' and 'X-Men' star, dies at 86",
+        "News | Cannes Lions"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMib0FVX3lxTFBhUGFoZHlrWVF0Q2lncG8xWUd0S25LRmJLYnNkaTg1eURCTzZJMkkxX1MxXzFjZHMwYjhhb25tN3NVcXFKS3oyRmVNMmlXeXlkeTQ2NG9oZ2ItT1phazJ2YVFnOVU2WHZGMUdTWWFKVQ?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQYVoxS1hOYU5WTVlxSFUyMV9DUklYb1JrS3ZxamtqMWw2eU9HS2NBOUIzN0dZYTRrN0hIdlpBeWJLMTU4WmV5X3N4S0dsVlRjZXotNFVnTWZLMkJyY00zdXBXQ09VREh5U2o0R0U4MjdEYUQycG5GYWc3enNpVWgxZEJiQlpmWDZubVpYcGgtUkhveEVuc2pMR0p6MkNmR0xfQTdZaVJ5NmZNYjlSRnJLelhTdGQ3Wngtc3YtaDduRHhpVXFQY1hMN2d6R0N2b2JrSFctcFpn?oc=5",
       "selection_level": 2
     }
   ]

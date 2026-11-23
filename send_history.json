@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-10-23",
-    "events": [
-      {
-        "event": "Apple Event",
-        "brand": "apple",
-        "published": ""
-      },
-      {
-        "event": "WWDC",
-        "brand": "apple",
-        "published": ""
-      },
-      {
-        "event": "Cannes Lions",
-        "brand": "netflix",
-        "published": ""
-      }
-    ]
-  },
-  {
     "date": "2026-10-24",
     "events": [
       {
@@ -195,6 +175,26 @@
       {
         "event": "OpenAI Event",
         "brand": "the verge",
+        "published": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-11-23",
+    "events": [
+      {
+        "event": "Apple Event",
+        "brand": "apple",
+        "published": ""
+      },
+      {
+        "event": "WWDC",
+        "brand": "apple",
+        "published": ""
+      },
+      {
+        "event": "Cannes Lions",
+        "brand": "reuters",
         "published": ""
       }
     ]
