@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-10-24",
-    "events": [
-      {
-        "event": "Microsoft Build",
-        "brand": "microsoft",
-        "published": ""
-      },
-      {
-        "event": "Microsoft Ignite",
-        "brand": "microsoft",
-        "published": ""
-      },
-      {
-        "event": "Snapdragon Summit",
-        "brand": "snapdragon",
-        "published": ""
-      }
-    ]
-  },
-  {
     "date": "2026-10-27",
     "events": [
       {
@@ -196,6 +176,26 @@
         "event": "Cannes Lions",
         "brand": "reuters",
         "published": ""
+      }
+    ]
+  },
+  {
+    "date": "2026-11-24",
+    "events": [
+      {
+        "event": "Microsoft Build",
+        "brand": "microsoft",
+        "published": ""
+      },
+      {
+        "event": "Microsoft Ignite",
+        "brand": "microsoft",
+        "published": ""
+      },
+      {
+        "event": "ces 2027 creator conversation brian tong",
+        "brand": "ces",
+        "published": "2026-11-23T17:33:48Z"
       }
     ]
   }
