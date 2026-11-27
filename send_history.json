@@ -1,25 +1,5 @@
 [
   {
-    "date": "2026-10-27",
-    "events": [
-      {
-        "event": "Made by Google",
-        "brand": "google",
-        "published": "2026-10-26T07:32:47Z"
-      },
-      {
-        "event": "NVIDIA GTC",
-        "brand": "nvidia",
-        "published": "2026-10-25T17:10:16Z"
-      },
-      {
-        "event": "Meta Connect",
-        "brand": "meta",
-        "published": ""
-      }
-    ]
-  },
-  {
     "date": "2026-11-03",
     "events": [
       {
@@ -196,6 +176,26 @@
         "event": "ces 2027 creator conversation brian tong",
         "brand": "ces",
         "published": "2026-11-23T17:33:48Z"
+      }
+    ]
+  },
+  {
+    "date": "2026-11-27",
+    "events": [
+      {
+        "event": "NVIDIA GTC",
+        "brand": "nvidia",
+        "published": ""
+      },
+      {
+        "event": "Snapdragon Summit",
+        "brand": "snapdragon",
+        "published": ""
+      },
+      {
+        "event": "Meta Connect",
+        "brand": "meta",
+        "published": ""
       }
     ]
   }

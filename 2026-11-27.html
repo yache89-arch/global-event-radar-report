@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="ko" data-template-version="2.1">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Global Event Radar</title>
+<style>
+:root{--bg:#f3f5f7;--paper:#fff;--ink:#101923;--muted:#6f7a86;--line:#dce2e7;--blue:#2456e8;--cyan:#1ba7d8;--navy:#071e2d}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",Arial,sans-serif;letter-spacing:-.015em}
+.wrap{max-width:1040px;margin:0 auto;padding:38px 22px 72px}
+.masthead{display:flex;justify-content:space-between;align-items:flex-end;gap:16px;padding-bottom:20px;border-bottom:1px solid #9ca6b0}
+.site-title{margin:0;font-size:44px;font-weight:800;letter-spacing:-.04em;line-height:1;color:var(--ink)}
+.site-date{font-size:12px;font-weight:700;color:var(--muted);letter-spacing:.04em;padding-bottom:6px}
+.today{background:var(--navy);color:#fff;padding:25px 26px;margin:20px 0 32px;border-radius:3px}
+.today-title{font-size:12px;color:var(--cyan);font-weight:800;margin-bottom:16px}
+.today-grid{display:grid;gap:0}
+.pick{padding:4px 22px 2px 0} .pick+.pick{border-left:1px solid rgba(255,255,255,.2);padding-left:22px}
+.pick .no{font-size:11px;color:var(--cyan);font-weight:800} .pick h3{margin:5px 0 7px;font-size:20px;line-height:1.25}
+.pick p{margin:0;color:#d4dde4;font-size:13px;line-height:1.45}
+.case{background:var(--paper);border:1px solid var(--line);padding:30px;margin-bottom:24px}
+.case-head{display:grid;grid-template-columns:1fr auto;gap:18px;align-items:start;padding-bottom:20px;border-bottom:1px solid var(--line)}
+.case h2{font-size:31px;margin:0;line-height:1.12;letter-spacing:-.035em}
+.deck{margin:8px 0 0;font-size:16px;color:var(--muted);line-height:1.45}
+.meta{font-size:12px;color:var(--muted);text-align:right;line-height:1.5;padding-top:4px}
+.summary{padding:22px 0 4px} .label{font-size:11px;color:var(--blue);font-weight:800;letter-spacing:.035em;margin-bottom:9px}
+.summary ul,.points ul{margin:0;padding-left:20px} .summary li,.points li{margin:7px 0;font-size:16px;line-height:1.55}
+.body-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:22px;margin-top:20px} .body-grid.single{grid-template-columns:1fr}
+.points{background:#f7f9fb;border:1px solid var(--line);padding:20px} .points li{font-size:14px;margin:9px 0}
+.insight{background:var(--navy);color:white;padding:22px} .insight .label{color:var(--cyan);margin-bottom:12px}
+.insight p{margin:0;color:#d5e0e7;font-size:15px;line-height:1.6}
+.optional{display:grid;grid-template-columns:1fr 1fr;gap:22px;margin-top:20px} .reaction,.sources{border-top:3px solid var(--ink);padding-top:16px}
+.reaction p{margin:0;font-size:14px;line-height:1.55} .sources.wide{grid-column:1/-1}
+.source-buttons{display:flex;flex-wrap:wrap;gap:8px} .source-btn{display:inline-block;padding:9px 12px;border:1px solid var(--line);background:#fff;color:var(--ink);text-decoration:none;font-size:12px;font-weight:650}
+.source-btn:hover{border-color:var(--blue);color:var(--blue)}
+@media(max-width:760px){.wrap{padding:24px 14px 50px}.today-grid{grid-template-columns:1fr!important}.pick{padding:10px 0}.pick+.pick{border-left:0;border-top:1px solid rgba(255,255,255,.18);padding-left:0}.case{padding:20px}.case-head,.body-grid,.optional{grid-template-columns:1fr}.meta{text-align:left}.sources.wide{grid-column:auto}}
+</style>
+</head>
+<body><div class="wrap">
+  <header class="masthead"><h1 class="site-title">Global Event Radar</h1><span class="site-date">2026.11.27</span></header>
+  <section class="today"><div class="today-title">TODAY'S TOP 3</div><div class="today-grid" style="grid-template-columns:repeat(3,1fr)">
+        <div class="pick">
+          <div class="no">01</div>
+          <h3>NVIDIA GTC</h3>
+          <p>Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC</p>
+        </div>
+        <div class="pick">
+          <div class="no">02</div>
+          <h3>Snapdragon Summit</h3>
+          <p>AI on Snapdragon is AI that moves with you</p>
+        </div>
+        <div class="pick">
+          <div class="no">03</div>
+          <h3>Meta Connect</h3>
+          <p>How Trust Issues Are Limiting the Appeal of AI Agents</p>
+        </div></div></section>
+  
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>NVIDIA GTC</h2>
+              <p class="deck">Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC · VIEW Nvidia reinstates Je…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC</li><li>VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge</li><li>Jensen Huang affair puts Nvidia&#x27;s future at risk, with no clear successor to the renowned CEO</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE53TFk0ZFZoVm1EaVMyQTN4SVlDWVR3aFJ5cVdtU3IzMlAxZ0dTS3BiUXA1WHF6QnNYYjBfRVJSSnpIT0FsV0lkUXhkRkw1cjV6NllsOFlRcU5PZnd3YjVjLXl2TWk3MXpkTVJ6MTdxZWNFVVYtQWptVNIBfkFVX3lxTE4xS1RzSlRwM2w0WVF3MGlYT3ZiU1BhYmxLdmE2a2ZYT2lfVzBIUGtzU3hac2FYMHdxbHBBRG1RUjBRWXNLaHBUdHNSZkNPM0pQdnBlcFdWT3NXUjFnd0tzV1g3VDg5dUtpNjRmMkJZVzhBbnhsM19EVEJKVU9yZw?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMieEFVX3lxTE53TFk0ZFZoVm1EaVMyQTN4SVlDWVR3aFJ5cVdtU3IzMlAxZ0dTS3BiUXA1WHF6QnNYYjBfRVJSSnpIT0FsV0lkUXhkRkw1cjV6NllsOFlRcU5PZnd3YjVjLXl2TWk3MXpkTVJ6MTdxZWNFVVYtQWptVNIBfkFVX3lxTE4xS1RzSlRwM2w0WVF3MGlYT3ZiU1BhYmxLdmE2a2ZYT2lfVzBIUGtzU3hac2FYMHdxbHBBRG1RUjBRWXNLaHBUdHNSZkNPM0pQdnBlcFdWT3NXUjFnd0tzV1g3VDg5dUtpNjRmMkJZVzhBbnhsM19EVEJKVU9yZw?oc=5" target="_blank" rel="noopener">CNBC ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMipwFBVV95cUxQWmN5QUFQSGxDSlRyR3gxZzZQczRFSC1SNjFtY0xtMkM4cjhwbnZndkNaSW5JVDNvVVYxMDdObkhjcVZIMVpVZ2FoVFdNZ3NGQU9hckJhZUx6M0dfMERucTNVZk9aamhpRU85TE96c1pEdGUyTlhyZVRMWlNPNUJ1TG1mLTJadHltZ1Utal85WFlTb09aTXF3MTBXNG1TZ0EzeHYzUFNadw?oc=5" target="_blank" rel="noopener">Reuters ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE5EcnlNdzFRY2RtTFNiaVYxeFhDSnJIck5qckxaeE4wLVRVYWFFSkZoc2tJNjRmLWxXSGxQMXFuYi1YeHpYbGNjOW5CMy1rNHNTaDlCWEpfUEpvYkprUEVkZjBJTTl6SmZRLWtNd1B3czh3ckl2ejlYcHFUN1FUODTSAYQBQVVfeXFMUHpzWXc5ZVl0T3JVSHlPT3NGUzh2cTFtd1hVbjRqbFNDQm5CclZwSmgtQ0I0akV6WHExSG9iZHptd0MxZ1RTOVhQYjlHbHNid2g3M0docFZBMmVCWGRjSzdIZjlFbFE1V3JjVHkyUmcxQWxFaDNsTHl2UUxHMTVxTlNvcDF2?oc=5" target="_blank" rel="noopener">CNBC ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Snapdragon Summit</h2>
+              <p class="deck">AI on Snapdragon is AI that moves with you · Capture the Cosmos: Snapdragon Insider Bhaumik&#x27;s Guide to Astrop…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>AI on Snapdragon is AI that moves with you</li><li>Capture the Cosmos: Snapdragon Insider Bhaumik&#x27;s Guide to Astrophotography</li><li>Snapdragon Summit 2026 | Snapdragon</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE02MGM5dTJDSmJzbEUxN041OWFTd2FmVldEWHJaX2J1Qjg4QXN1a1pLSHlfVkNzajRoTXhVZlM4SmNVYVhjS0hMeUlXUC1pS0t2aF9RNWlRakRpNGtzRl9mQXdHdzhodWZDYWtEWnFzSzF2VnVXazcyTHNB?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiekFVX3lxTE02MGM5dTJDSmJzbEUxN041OWFTd2FmVldEWHJaX2J1Qjg4QXN1a1pLSHlfVkNzajRoTXhVZlM4SmNVYVhjS0hMeUlXUC1pS0t2aF9RNWlRakRpNGtzRl9mQXdHdzhodWZDYWtEWnFzSzF2VnVXazcyTHNB?oc=5" target="_blank" rel="noopener">Qualcomm ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMiqAFBVV95cUxPYmVFX3otdC03eFI2R190R0pyQVlIbG1DQW0zbjEtQzlOeXIyVEphR0NLd0RxcjVWWEpPdlRwUlNaMlZmMHJEVmhqVGRad3NHaDZaUDNVS01vRmZXb254aVlsSmNUR19hN1ZNd3R3VDhfa2lqVHVjbUpWSm9USE9EZ1hpWi00UGxQUk5mWXA3bTcxYTFKc3NPSW9sRkpaX1k1bmhFc1ZYcDY?oc=5" target="_blank" rel="noopener">Qualcomm ↗</a><a class="source-btn" href="https://www.qualcomm.com/company/events/snapdragon-summit" target="_blank" rel="noopener">qualcomm.com ↗</a></div>
+            </section>
+          </div>
+        </article>
+        <article class="case">
+          <div class="case-head">
+            <div>
+              <h2>Meta Connect</h2>
+              <p class="deck">How Trust Issues Are Limiting the Appeal of AI Agents · Why You Shouldn’t Use Meta’s Muse AI Agent for Shoppi…</p>
+            </div>
+            <div class="meta">TRUSTED MEDIA<br></div>
+          </div>
+
+          <section class="summary">
+            <div class="label">핵심 요약</div>
+            <ul><li>How Trust Issues Are Limiting the Appeal of AI Agents</li><li>Why You Shouldn’t Use Meta’s Muse AI Agent for Shopping Next Weekend</li><li>Humans are still doing the work behind some AI agents</li></ul>
+          </section>
+
+          <div class="body-grid single">
+            <section class="points">
+              <div class="label">눈여겨볼 점</div>
+              <ul><li><strong>메시지:</strong> AI를 기능 목록이 아니라 실제 역할과 사용 맥락으로 설명하는지</li><li><strong>구성:</strong> 큰 그림에서 기능·데모로 이어지는 발표 순서가 선명한지</li></ul>
+            </section>
+            
+          </div>
+
+          <div class="optional">
+            
+            <section class="sources wide">
+              <div class="label">출처</div>
+              <div class="source-buttons"><a class="source-btn" href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2loUTlKY1QwVnREa0NWRktuZEJfVlVfWFFWSHhrMmRVeWV0cEsxbG5RTnJNN2FqZ08ydTE5Ql8ySGItSGdWcW96dmRLdGxNa3RtU0hDeUxhNFY2WkU4Z2IwcTdvM2pwSlV4TGtwVmR0WGhScGhWZVBkLUExVkRRNkFGUVRMbFE0eGVJZWp6UU13UC01T3kycjg3a1JHU2FpSlFvQkppT0VETzI3WnRlUjdGZzlVYnJHVzN6MElaQ084T2ZOOEE?oc=5" target="_blank" rel="noopener">Article ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2loUTlKY1QwVnREa0NWRktuZEJfVlVfWFFWSHhrMmRVeWV0cEsxbG5RTnJNN2FqZ08ydTE5Ql8ySGItSGdWcW96dmRLdGxNa3RtU0hDeUxhNFY2WkU4Z2IwcTdvM2pwSlV4TGtwVmR0WGhScGhWZVBkLUExVkRRNkFGUVRMbFE0eGVJZWp6UU13UC01T3kycjg3a1JHU2FpSlFvQkppT0VETzI3WnRlUjdGZzlVYnJHVzN6MElaQ084T2ZOOEE?oc=5" target="_blank" rel="noopener">Bloomberg ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMirwFBVV95cUxPNTl0Y3ZSNGJXSGlSRHFLaVZGaklaZ3BDaWJxaTNSZ0RqUmpJRFN4eXZmS01QZWlQczlDWV9JWWNRMTlkelByemJweEpxWTVZSTdMYkdmWXdLdmdtNG1RYlBPNmVfUU1oYVM2aFQ1NXN1aHk5SW9BZVY4dDNSVGlXOXVxa0o0S2xqYm1GdGFZQUJVUzROaFZDN2RoSGxfeThrZURmTm1sZ2Q5SnRVa1lR?oc=5" target="_blank" rel="noopener">CNET ↗</a><a class="source-btn" href="https://news.google.com/rss/articles/CBMif0FVX3lxTE4tdDRGYVpNUzkzVXNqQ281UkRReUhaM0JVMm9KX0otb25qc0dEX0kyQ21yWHdLU05xNVBNVFFWRHFCZjE3RUVudmdZRHRhNmtIU3ZkbmhCb3JYTHg1Rkt0UWNtLU9NMkdrdXF2Y2pYX0lBdVMxVTV0SW01dEhNTVnSAYQBQVVfeXFMT2tFS2NFLW55Ym5JMDVGS2ZsdE1FYjNLUER0NHBLeVoyaFU2aHJ0Q3lFTE5DMm1CVGlDZlJwYVpzSWpnc2RDVDdvT082WkdXeHQzSjc4eFY1SXA4SjhPalFZNEQ4aUF2VFladTFVUHptTENubWk3dWc3cVYzZGNmWURKWDho?oc=5" target="_blank" rel="noopener">CNBC ↗</a></div>
+            </section>
+          </div>
+        </article>
+</div></body></html>

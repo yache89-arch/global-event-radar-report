@@ -1,45 +1,45 @@
 {
   "ready": true,
-  "generated_at": "2026-11-24T15:35:24.279374+09:00",
+  "generated_at": "2026-11-27T13:39:10.313332+09:00",
   "events": [
     {
-      "event": "Microsoft Build",
-      "title": "6 lessons from London and Paris: How startups and enterprises can work better together",
-      "what_happened": "6 lessons from London and Paris: How startups and enterprises can work better together · Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
+      "event": "NVIDIA GTC",
+      "title": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+      "what_happened": "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC · VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
       "summary_points": [
-        "6 lessons from London and Paris: How startups and enterprises can work better together",
-        "Microsoft Ignite 2026: What’s new in Azure, the platform purpose-built for AI",
-        "Microsoft Build Recap: Team Copilot, AI Updates, Sam Altman Surprise - Business Insider"
+        "Jensen Huang to face DC grilling the same day Nvidia releases new products at GTC",
+        "VIEW Nvidia reinstates Jensen Huang as CEO, igniting tech surge",
+        "Jensen Huang affair puts Nvidia's future at risk, with no clear successor to the renowned CEO"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxPT2h5WEExSWttNWduc0pTcUhxdGhoNjhGN1dVQmJXYURRMUVnc1E0WHZDUTdQSnoyeXBHbzdMYm56WnBuLUlJLUh1TzNUVW42LVhDYzBCeGFFVmY5OVlNVFNmd2N2aWlYaURObFRscW5QQ1BTMmQxUUR1eVk1RVg5ZW1DMnl0aEFvZ3JDVGpoX0pKZEhTT05YVE9RWlFHOXNxZWxYLXpZZHJNTnlIaTIxQS1qcnF4QmNvTENnZ3E5RDc1T3RsdVpvUGs5TF8?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE53TFk0ZFZoVm1EaVMyQTN4SVlDWVR3aFJ5cVdtU3IzMlAxZ0dTS3BiUXA1WHF6QnNYYjBfRVJSSnpIT0FsV0lkUXhkRkw1cjV6NllsOFlRcU5PZnd3YjVjLXl2TWk3MXpkTVJ6MTdxZWNFVVYtQWptVNIBfkFVX3lxTE4xS1RzSlRwM2w0WVF3MGlYT3ZiU1BhYmxLdmE2a2ZYT2lfVzBIUGtzU3hac2FYMHdxbHBBRG1RUjBRWXNLaHBUdHNSZkNPM0pQdnBlcFdWT3NXUjFnd0tzV1g3VDg5dUtpNjRmMkJZVzhBbnhsM19EVEJKVU9yZw?oc=5",
       "selection_level": 2
     },
     {
-      "event": "Microsoft Ignite",
-      "title": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
-      "what_happened": "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work · Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
+      "event": "Snapdragon Summit",
+      "title": "AI on Snapdragon is AI that moves with you",
+      "what_happened": "AI on Snapdragon is AI that moves with you · Capture the Cosmos: Snapdragon Insider Bhaumik's Guide to Astrophotography",
       "summary_points": [
-        "Copilot at Microsoft Ignite: Expanding what’s possible with intelligence built for work",
-        "Microsoft unveils AI models for coding, cybersecurity as it takes on Anthropic, OpenAI",
-        "Microsoft Ignite 2026: Empowering human ambition, intelligence and trust"
+        "AI on Snapdragon is AI that moves with you",
+        "Capture the Cosmos: Snapdragon Insider Bhaumik's Guide to Astrophotography",
+        "Snapdragon Summit 2026 | Snapdragon"
       ],
       "thumbnail": "",
-      "video_url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNQm5ka2JwWW41TURfckR5a2x4U0tSLTdudWZpb1lxc0ZqSk54UWFKckFVMUlXSUJGcE5HYlJyV0s1NFlNSktiOXZlTWJsbVZSNDVmYks2Y3QxUm5vOGstUHlpZDcyMXlVbzBsTHZMMzI2MUFtUWhuT1ZXZ2llV0t3djBGeXpPX1ctNFBxLTlYNTZpWUFpb01KcTRGbUlXM0pPMklic1BGM2RLT2oxdlUxc0F6WWIxWkhQbUFsLWFLLXVNNXJDQzZSbVJ6SXROaW9HTFVFMk4wQTRMUQ?oc=5",
+      "video_url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE02MGM5dTJDSmJzbEUxN041OWFTd2FmVldEWHJaX2J1Qjg4QXN1a1pLSHlfVkNzajRoTXhVZlM4SmNVYVhjS0hMeUlXUC1pS0t2aF9RNWlRakRpNGtzRl9mQXdHdzhodWZDYWtEWnFzSzF2VnVXazcyTHNB?oc=5",
       "selection_level": 2
     },
     {
-      "event": "ces 2027 creator conversation brian tong",
-      "title": "CES 2027: Creator Conversation with Brian Tong and iJustine",
-      "what_happened": "CES 2027: Creator Conversation with Brian Tong and iJustine · CES Tech Talk",
+      "event": "Meta Connect",
+      "title": "How Trust Issues Are Limiting the Appeal of AI Agents",
+      "what_happened": "How Trust Issues Are Limiting the Appeal of AI Agents · Why You Shouldn’t Use Meta’s Muse AI Agent for Shopping Next Weekend",
       "summary_points": [
-        "CES 2027: Creator Conversation with Brian Tong and iJustine",
-        "CES Tech Talk",
-        "Wrapping Up CES 2026 with Justine Ezarik and Brian Tong"
+        "How Trust Issues Are Limiting the Appeal of AI Agents",
+        "Why You Shouldn’t Use Meta’s Muse AI Agent for Shopping Next Weekend",
+        "Humans are still doing the work behind some AI agents"
       ],
-      "thumbnail": "https://i.ytimg.com/vi/5WxqgOV_idc/hqdefault.jpg",
-      "video_url": "https://www.youtube.com/watch?v=5WxqgOV_idc",
-      "selection_level": 1
+      "thumbnail": "",
+      "video_url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPd2loUTlKY1QwVnREa0NWRktuZEJfVlVfWFFWSHhrMmRVeWV0cEsxbG5RTnJNN2FqZ08ydTE5Ql8ySGItSGdWcW96dmRLdGxNa3RtU0hDeUxhNFY2WkU4Z2IwcTdvM2pwSlV4TGtwVmR0WGhScGhWZVBkLUExVkRRNkFGUVRMbFE0eGVJZWp6UU13UC01T3kycjg3a1JHU2FpSlFvQkppT0VETzI3WnRlUjdGZzlVYnJHVzN6MElaQ084T2ZOOEE?oc=5",
+      "selection_level": 2
     }
   ]
 }
