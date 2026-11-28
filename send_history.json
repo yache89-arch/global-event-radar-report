@@ -198,5 +198,25 @@
         "published": ""
       }
     ]
+  },
+  {
+    "date": "2026-11-28",
+    "events": [
+      {
+        "event": "AWS re:Invent",
+        "brand": "aws",
+        "published": ""
+      },
+      {
+        "event": "siaran langsung mwc cibeber",
+        "brand": "mwc",
+        "published": "2026-11-27T20:26:25Z"
+      },
+      {
+        "event": "beim einkaufen kauft sie bald uns",
+        "brand": "ifa",
+        "published": "2026-11-27T16:00:01Z"
+      }
+    ]
   }
 ]
